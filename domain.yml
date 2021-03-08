@@ -25,7 +25,7 @@ responses:
     - custom:
         texts:
           text: "Here is something to cheer you up:"
-        image: "https://i.imgur.com/nGF1K8f.jpg"
+        image: "https://i.imgur.com/w9NORXB.jpg"
 
   utter_did_that_help:
     - custom:
@@ -54,13 +54,13 @@ responses:
 
   utter_main_menu_btn:
     - custom:
-        texts:
-          text: "Here are the QnA main menu: "
-        buttons:
-            - title: "About Usm Computer Science School"
-              payload: "/about_school_btn"
-            - title: "Greet"
-              payload: "/greet"
+       texts:
+         text: "Here are the QnA main menu: "
+       buttons:
+          - title: "About Usm Computer Science School"
+            payload: "/about_school_btn"
+          - title: "Greet"
+            payload: "/greet"
 
   utter_about_school_btn:
     - custom:
