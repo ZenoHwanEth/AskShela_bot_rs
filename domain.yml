@@ -17,56 +17,39 @@ intents:
 
 responses:
   utter_greet:
-    - custom:
-        texts:
-          text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-    - custom:
-        texts:
-          text: "Here is something to cheer you up:"
-        image: "https://i.imgur.com/w9NORXB.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/w9NORXB.jpg"
 
   utter_did_that_help:
-    - custom:
-        texts:
-          text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-    - custom:
-        texts:
-          text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-    - custom:
-        texts:
-          text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-    - custom:
-        texts:
-          text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
   utter_please_rephrase:
-    - custom:
-        texts:
-          text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+    - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
 
   utter_main_menu_btn:
-    - custom:
-       texts:
-         text: "Here are the QnA main menu: "
-       buttons:
-          - title: "About Usm Computer Science School"
-            payload: "/about_school_btn"
-          - title: "Greet"
-            payload: "/greet"
+    - text: "Here are the QnA main menu: "
+      buttons:
+        - title: "About Usm Computer Science School"
+          payload: "/about_school_btn"
+        - title: "Greet"
+          payload: "/greet"
 
   utter_about_school_btn:
-    - custom:
-       image: "https://i.imgur.com/iPkqnuH.jpg"
-       texts:
-           text1: "The School of Computer Science was established on 1st of March 1995."
-           text2:  "Over the years the school has engaged in various research activities such as Enabling Technologies & Infrastructure, Data to Knowledge, and Service Computing."
-           text3:  "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
-       emotion: "smile"
+    - image: "https://i.imgur.com/iPkqnuH.jpg"
+      text: "The School of Computer Science was established on 1st of March 1995.
+             Over the years the school has engaged in various research activities such as Enabling Technologies & Infrastructure, Data to Knowledge, and Service Computing.
+             The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
+      custom:
+        emoji: "smile"

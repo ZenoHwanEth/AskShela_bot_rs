@@ -69,6 +69,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - i am happy
 
 - intent: mood_unhappy
   examples: |
@@ -98,6 +99,8 @@ nlu:
   examples: |
     - main menu
     - show me the main menu
+    - i need a main menu
+    - please give me main menu
 
 - intent: about_school_btn
   examples: |
