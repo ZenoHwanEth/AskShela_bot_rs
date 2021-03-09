@@ -46,10 +46,15 @@ responses:
         - title: "Greet"
           payload: "/greet"
 
-  utter_about_school_btn:
+  utter_about_school_btn_1:
+    - text: "The School of Computer Science was established on 1st of March 1995."
+
+
+  utter_about_school_btn_2:
+    - text: "Over the years the school has engaged in various research activities such as Enabling Technologies & Infrastructure, Data to Knowledge, and Service Computing."
+
+  utter_about_school_btn_3:
     - image: "https://i.imgur.com/iPkqnuH.jpg"
-      text: "The School of Computer Science was established on 1st of March 1995.
-             Over the years the school has engaged in various research activities such as Enabling Technologies & Infrastructure, Data to Knowledge, and Service Computing.
-             The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
+      text: "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
       custom:
         emoji: "smile"

@@ -40,4 +40,6 @@ stories:
 - story: about cs school button
   steps:
     - intent: about_school_btn
-    - action: utter_about_school_btn
+    - action: utter_about_school_btn_1
+    - action: utter_about_school_btn_2
+    - action: utter_about_school_btn_3
