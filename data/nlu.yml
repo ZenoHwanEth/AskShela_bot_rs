@@ -107,3 +107,76 @@ nlu:
     - about cs school
     - about computer science school
     - tell me about computer science school
+
+- intent: QnA-datascience
+  examples: |
+    - Question about MSc (Data Science & Analytics)
+    - Question about Data Science & Analytics
+    - Question about Data Science and Analytics
+
+- intent: program_structure
+  examples: |
+    - what is the program structure?
+    - program structure
+    - program structure for computer science
+
+- intent: candidation_period_msdtsc
+  examples: |
+    - what is the canditation period for Data Science & Analytics
+    - what is the canditation period for Data Science and Analytics
+    - canditation period for Data Science and Analytics
+
+- intent: courses_msdtsc
+  examples: |
+    - courses for master of science in Data Science & Analytics
+    - courses in Data Science & Analytics
+
+- intent: study_scheme_msdtsc
+  examples: |
+    - master in Data Science and Analytics study scheme
+    - study scheme for Data Science and Analytics
+
+- intent: evaluation
+  examples: |
+    - evaluation for master of science
+    - evalutation
+
+- intent: graduation_requirement
+  examples: |
+    - graduation requirement
+    - graduation requirement for master of science in computer science
+
+- intent: core_msdtsc
+  examples: |
+    - core course in master of science (Data Science & Analytics)
+    - core course in data science and analytics
+
+- intent: project_msdtsc
+  examples: |
+    - project for master of science (Data Science & Analytics)
+    - project in data science and analytics
+
+- intent: elective_business_analytic
+  examples: |
+    - elective in business analytic
+    - elective course in business analytic
+
+- intent: elective_multimodal_analytic
+  examples: |
+    - elective in multimodal analytic
+    - elective course in multimodal analytic
+
+- intent: 1.5_y_msdtsc
+  examples: |
+    - 1.5 years in master of science in data science and analytics
+    - one and half years in master of science in data science and analytics
+
+- intent: 2_y_msdtsc
+  examples: |
+    - 2 years in master of science in data science and analytisc
+    - two years in master of science in data science and analytics
+
+- intent: 2.5_y_msdtsc
+  examples: |
+    - 2.5 years in master of science in data science and analytisc
+    - two and half years in master of science in data science and analytics

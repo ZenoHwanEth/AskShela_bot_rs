@@ -43,3 +43,74 @@ stories:
     - action: utter_about_school_btn_1
     - action: utter_about_school_btn_2
     - action: utter_about_school_btn_3
+
+- story: Question and answer about data science Msc
+  steps:
+    - intent: QnA-datascience
+    - action: utter_QnA-datascience
+
+- story: program structure for master of science CS
+  steps:
+    - intent: program_structure
+    - action: utter_program_structure
+
+- story: candidation period for data science
+  steps:
+    - intent: candidation_period_msdtsc
+    - action: utter_candidation_period_msdtsc
+    - action: utter_study_time
+
+- story: courses for data science
+  steps:
+    - intent: courses_msdtsc
+    - action: utter_courses
+
+- story: study_scheme_msdtsc
+  steps:
+    - intent: study_scheme_msdtsc
+    - action: utter_study_scheme_msdtsc
+
+- story: evaluation
+  steps:
+    - intent: evaluation
+    - action: utter_evalutation
+
+- story: graduation requirement
+  steps:
+    - intent: graduation_requirement
+    - action: utter_graduation_requirement
+
+- story: core course for data science
+  steps:
+    - intent: core_msdtsc
+    - action: utter_core_msdtsc
+
+- story: project for data science
+  steps:
+    - intent: project_msdtsc
+    - action: utter_project_msdtsc
+
+- story: elective business analytic
+  steps:
+    - intent: elective_business_analytic
+    - action: utter_elective_business_analytic
+
+- story: elective_multimodal_analytic
+  steps:
+    - intent: elective_multimodal_analytic
+    - action: utter_elective_multimodal_analytic
+
+- story: 1.5 year in data science
+  steps:
+    - intent: 1.5_y_msdtsc
+    - action: utter_1.5_y_scheme_msdtsc
+
+- story: 2 year in data science
+  steps:
+    - intent: 2_y_msdtsc
+    - action: utter_2_y_scheme_msdtsc
+
+- story: 2.5 year in data science
+  steps:
+    - intent: 2.5_y_msdtsc
+    - action: utter_2.5_y_scheme_msdtsc

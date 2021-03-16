@@ -14,10 +14,24 @@ intents:
   - bot_challenge
   - main_menu_btn
   - about_school_btn
+  - QnA-datascience
+  - program_structure
+  - candidation_period_msdtsc
+  - courses_msdtsc
+  - study_scheme_msdtsc
+  - evaluation
+  - graduation_requirement
+  - core_msdtsc
+  - project_msdtsc
+  - elective_business_analytic
+  - elective_multimodal_analytic
+  - 1.5_y_msdtsc
+  - 2_y_msdtsc
+  - 2.5_y_msdtsc
 
 responses:
   utter_greet:
-    - text: "Hey! How are you?"
+    - text: "Hey! I am Shela. You can ask me anything regarding to USM Computer Science Postgraduate program"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -41,11 +55,12 @@ responses:
   utter_main_menu_btn:
     - text: "Here are the QnA main menu: "
       buttons:
+        - title: "Question about MSc (Data Science & Analytics)"
+          payload: "/QnA-datascience"
         - title: "About Usm Computer Science School"
           payload: "/about_school_btn"
-        - title: "Greet"
-          payload: "/greet"
 
+# -----------------------------ABOUT USM COMPUTER SCIENCE SCHOOL-----------------------------------------
   utter_about_school_btn_1:
     - text: "The School of Computer Science was established on 1st of March 1995."
 
@@ -56,5 +71,94 @@ responses:
   utter_about_school_btn_3:
     - image: "https://i.imgur.com/iPkqnuH.jpg"
       text: "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
-      custom:
-        emoji: "smile"
+
+# ----------------------------- Q n A of master in data science ---------------------------------------------------
+  utter_QnA-datascience:
+    - text: "Please choose one of the topic: "
+      buttons:
+        - title: "Program Structure"
+          payload: "/program_structure"
+        - title: "Candidation Period"
+          payload: "/candidation_period_msdtsc"
+        - title: "Courses"
+          payload: "/courses_msdtsc"
+        - title: "Study Scheme"
+          payload: "/study_scheme_msdtsc"
+        - title: "Evaluation"
+          payload: "/evaluation"
+        - title: "Graduation Requirement"
+          payload: "/graduation_requirement"
+
+  utter_program_structure:
+    - text: "Program structure:
+              10 course
+              3 elective - 12 unit
+              6 core - 24 unit
+              1 project - 8 unit
+              total:44 unit"
+
+  utter_candidation_period_msdtsc:
+    - text: "18 month(min) - 36 month(max)
+  3 semester       6 semester"
+
+  utter_study_time:
+    - text: "All classes are schedule from 6 - 9pm"
+
+  utter_courses:
+    - text: "There are 2 electives which are business analytics and multimodal analytics. \n
+    Below are detail for core, project and elective courses."
+      buttons:
+        - title: "Core"
+          payload: "/core_msdtsc"
+        - title: "Project"
+          payload: "/project_msdtsc"
+        - title: "Elective - Business Analytic"
+          payload: "/elective_business_analytic"
+        - title: "Elective - Multimodal Analytic"
+          payload: "/elective_multimodal_analytic"
+
+  utter_core_msdtsc:
+    - text: "Core courses of master of science (Data science & analytics)"
+      image: "https://i.imgur.com/0G3cp95.png"
+
+  utter_project_msdtsc:
+    - text: "Here is the detail for project in master of science (Data science)"
+      image: "https://i.imgur.com/CxZ4jRB.png"
+
+  utter_elective_business_analytic:
+    - text: "Here is the detail for elective business analytic"
+      image: "https://i.imgur.com/QjHdMW8.png"
+
+  utter_elective_multimodal_analytic:
+    - text: "Here is the detail for elective multimodal analytic"
+      image: "https://i.imgur.com/S1tPL5Z.png"
+
+  utter_study_scheme_msdtsc:
+    - text: "Here are the study scheme available: "
+      buttons:
+        - title: "1.5 years"
+          payload: "/1.5_y_msdtsc"
+        - title: "2 years"
+          payload: "/2_y_msdtsc"
+        - title: "2.5 years"
+          payload: "/2.5_y_msdtsc"
+
+  utter_1.5_y_scheme_msdtsc:
+    - text: "Here are the 1.5 years scheme: "
+      image: "https://i.imgur.com/GpDiYjT.png"
+
+  utter_2_y_scheme_msdtsc:
+    - text: "Here are the 2 years scheme: "
+      image: "https://i.imgur.com/t2HzTXm.png"
+
+  utter_2.5_y_scheme_msdtsc:
+    - text: "Here are the 2.5 years scheme: "
+      image: "https://i.imgur.com/CtmsYZB.png"
+
+  utter_evalutation:
+    - text: "As for evaluation, for courses and project, you need a C+ or better for a pass"
+      image: "https://i.imgur.com/UnzE7HN.png"
+
+  utter_graduation_requirement:
+    - text: "For graduation requirement, you need a CGPA 3.0 and above to graduate."
+      image: "https://i.imgur.com/hrQIOyM.png"
