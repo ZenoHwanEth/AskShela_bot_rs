@@ -1,0 +1,60 @@
+version: "2.0"
+
+rules:
+
+- rule: question and answer in master of science in computer science
+  steps:
+    - intent: question_and_answer_ms_computerscience
+    - action: utter_QnA_ms_cs
+
+- rule: candidation_period_mscs
+  steps:
+    - intent: candidation_period_mscs
+    - action: utter_candidation_period_mscs_fulltime
+    - action: utter_candidation_period_mscs_parttime
+    - action: utter_study_time
+
+- rule: courses_mscs
+  steps:
+    - intent: courses_mscs
+    - action: utter_courses_mscs
+
+- rule: core_ms_cs
+  steps:
+    - intent: core_ms_cs
+    - action: utter_core_ms_cs
+
+- rule: project_ms_cs
+  steps:
+    - intent: project_ms_cs
+    - action: utter_project_ms_cs
+
+- rule: elective_ms_cs
+  steps:
+    - intent: elective_ms_cs
+    - action: utter_elective_ms_cs
+
+- rule: study_scheme_ms_cs
+  steps:
+    - intent: study_scheme_ms_cs
+    - action: utter_study_scheme_ms_cs
+
+- rule: 1_y_ms_cs
+  steps:
+    - intent: 1_y_ms_cs
+    - action: utter_1_y_scheme_ms_cs
+
+- rule: 1.5_y_ms_cs
+  steps:
+    - intent: 1.5_y_ms_cs
+    - action: utter_1.5_y_scheme_ms_cs
+
+- rule: 2_y_ms_cs
+  steps:
+    - intent: 2_y_ms_cs
+    - action: utter_2_y_scheme_ms_cs
+
+- rule: 2.5_y_ms_cs
+  steps:
+    - intent: 2.5_y_ms_cs
+    - action: utter_2.5_y_scheme_ms_cs

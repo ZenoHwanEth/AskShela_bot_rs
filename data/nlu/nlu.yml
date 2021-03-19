@@ -1,0 +1,273 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - greet
+    - helo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - right
+    - ya
+    - alright
+    - ok
+    - yes of course
+    - alright man
+    - great
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no bro
+    - no really
+    - nai
+    - of course not
+    - i am not
+    - no bro
+    - not !!!
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - i am happy
+    - happy
+    - great man
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - disappointed
+    - i am not happy
+    - i am not good today
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - who are u?
+    - who r u?
+    - u are a bot?
+    - affirm that u are a human
+    - what are u?
+    - please tell me who are u.
+    - you are a bot?
+    - what are you?
+    - please tell me who are you.
+
+- intent: main_menu_btn
+  examples: |
+    - main menu
+    - show me the main menu
+    - please let me see the main menu
+    - is there a main menu?
+    - main_menu_btn
+    - main menu please
+    - give me main mene
+    - show main menu
+    - main menu master in computer science
+    - main menu for computer science
+    - Main Menu
+    - main_menu
+    - pls give me main menu
+    - can i have the main menu
+    - main menu pls
+    - direct me to main menu
+    - main menu button
+    - i wan main menu
+    - go to main menu
+    - where is main menu
+
+- intent: about_school_btn
+  examples: |
+    - about cs school
+    - about computer science school
+    - tell me about computer science school
+    - about_school_btn
+    - tell me about the school
+    - what is about the cs school
+    - tell me about computer science school in usm
+    - i wan to know about computer science school
+    - computer science school in usm
+    - about cs school in usm
+    - about computer science in usm
+    - detail about usm computer science school
+    - tell me detail about cs school in usm
+    - about usm cs school
+    - about usm computer science school
+    - what do you understand about computer science school in usm
+    - usm computer science school detail
+    - detail about computer science school in usm
+    - what do you about computer science in usm school
+
+- intent: question_and_answer_datascience
+  examples: |
+    - Question about master of science in Data Science & Analytics
+    - Question about master in Data Science & Analytics
+    - Question about master in Data Science and Analytics
+    - question and answer about master in data science
+    - question and answer about master in data Analytics
+    - Question and answer about MSc Data Science & Analytics
+    - list out the question and answer for master in data science and analytic
+    - question and answer about master of Data Science and Analytics
+    - question and answer master in datascience
+    - Question about MSc Data Science & Analytics
+    - Question about Master in Data Science & Analytics
+    - can i get a list of question and answer for master in data science and analytic
+    - do you have question and answer for master in data science and analytic
+    - Qna for master in data science and analytic
+    - question and answer for master of data science in usm
+    - question and answer for ms data data science in usm
+    - Qna of data analytic in usm
+    - question answer for master in data analytic in usm
+
+- intent: program_structure
+  examples: |
+    - what is the program structure?
+    - program structure
+    - program structure for computer science
+    - program_structure
+    - detail for program structure in data science and analytic
+    - program structure in data science and analytic
+    - explain program structure
+    - details program structure
+    - show me details in program structure
+    - what is the program structure in master program in usm
+    - program structure explaination
+    - give out the program structure
+    - please give the program structure
+    - program structure please
+    - program structure pls
+    - do you have program structure?
+
+- intent: school_evaluation
+  examples: |
+    - evaluation for master of science
+    - evaluation
+    - evaluation for result
+    - what is evaluation in usm
+    - what is the evaluation for master in computer science
+    - evaluation for master in computer science
+    - evaluation for master in cs
+    - what is the evaluation for master program in usm
+    - what is the evaluation for master in data science and analytic
+    - what is the evaluation
+    - evaluation for master in data science
+    - evaluation for master in data analytic
+    - where does i see the evaluation for master in data science and analytic
+    - please give me evaluation
+    - pls give evaluation for data science and data analytic
+    - evaluation for usm computer science
+    - show me evaluation for master in computer science
+    - give out the evaluation
+    - evaluation detail
+    - evaluation detail please
+    - evaluation detail pls
+
+- intent: graduation_requirement
+  examples: |
+    - graduation requirement
+    - graduation requirement for master of science in computer science
+    - what is the graduation requirement for master in cs
+    - graduation requirement postgraduate in computer science
+    - how to graduate in master of science in computer science
+    - graduation requirement please
+    - please tell me the graduation requirement
+    - graduation requirement for master in data science and analytic
+    - give me the graduation requirement in usm
+    - tell me the graduation requirement for data science and analytic
+    - please give me the graduation requirement
+    - is there a graduation requirement?
+    - what is the graduation requirement
+    - what is the graduation requirement for data science
+
+- intent: postgraduate_duration
+  examples: |
+    - what is the duration for postgraduate
+    - what is the duration for postgraduate in usm computer science
+    - duration for postgraduate in computer science
+    - master program duration
+    - master program duration of computer science in usm
+    - how long is the duration for postgraduate program in computer science in usm
+    - tell me how long is the duration for postgraduate program in cs school
+    - postgraduate duration
+    - postgraduateduration in usm
+    - postgraduate usm time taken
+    - time used duration for postgraduate in usm
+    - duration for postgraduate !
+    - duration for postgraduate in usm
+    - computer science postgraduate in usm duration
+    - is there a duration for postgraduate details
+    - details for duration for postgraduate
+    - detail for period in postgraduate in usm
+    - period in postgraduate
+

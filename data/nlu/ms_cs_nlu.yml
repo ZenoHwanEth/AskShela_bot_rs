@@ -1,0 +1,316 @@
+version: "2.0"
+
+nlu:
+
+- intent: question_and_answer_ms_computerscience
+  examples: |
+    - Question about master of science in computer science
+    - Question about master in computer science
+    - Question about master of science in computer science
+    - question and answer about master in computer science
+    - Question and answer about master of computer science
+    - list out the question and answer for master in computer science
+    - question and answer about master in computer science
+    - question_and_answer_ms_computerscience
+    - question and answer master for computer science in usm
+    - Question about MSc computer science
+    - Question about Master in computer science
+    - QnA about master in computer science
+    - QnA ms cs
+    - QnA ms computer science
+    - list of question and answer about master in computer science
+    - usm list of question and answer in master for computer science
+
+- intent: candidation_period_mscs
+  examples: |
+    - canditation period for master in computer science
+    - what is the canditation period for master in computer science
+    - canditation period in master in computer science
+    - candidation_period_mscs
+    - detail about candidation period for master in computer science
+    - where is the detail about candidation period for master in computer science
+    - what is the candidation period in master cs
+    - master cs candidation period
+    - master in computer science candidation period
+    - ms cs candidation period
+    - can i ask about the candidation period for master in computer science
+    - may i know the candidation period for master in computer science
+    - candidation period for master in computer science !
+    - detail for candidation period for master in computer science
+    - candidation period ms cs
+    - candidation period master computer science in usm
+    - explaination of candidation period for master computer science in usm
+    - explain master of computer science candidation period
+    - duration in master of computer science
+    - duration for master in computer science
+
+- intent: courses_mscs
+  examples: |
+    - courses in master of science in computer science
+    - the course needed in master of science in computer science
+    - course in master of science in computer science
+    - tell me the courses in master of science in computer science
+    - courses_mscs
+    - course ms cs
+    - list the courses in master of computer science
+    - give the courses in master of computer science
+    - explain the courses in master of computer science
+    - list out the courses in master of computer science
+    - what is the courses in master of computer science
+    - what are the courses in master computer science
+    - master of computer science courses
+    - master of computer science courses !
+    - ms cs courses list !
+    - is there a list for courses in master of computer science
+    - please give me the master of computer science courses
+    - course master of computer science
+    - ms cs courses
+    - usm master in computer science courses
+    - usm master in cs courses
+
+
+- intent: core_ms_cs
+  examples: |
+    - core course in master of science in computer science
+    - what is the core course detail in master of science in computer science
+    - what is the core course in master of science in computer science
+    - detail for core course in master of science in computer science
+    - core course in master of science in computer science
+    - core_ms_cs
+    - core ms cs
+    - core course in master of computer science detail
+    - explain the core course in master of computer science
+    - explaination for the core course in master of computer science
+    - core for master in computer science
+    - explain to me the core course for master of computer science
+    - master of computer science core course
+    - core course for master in computer science
+    - will you tell me the core course in master in computer science
+    - give the core course in master of computer science
+    - master of computer science core course
+    - master of computer science core course !!
+
+- intent: project_ms_cs
+  examples: |
+    - project for master of science in computer science
+    - project in master of science in computer science
+    - what is the project detail in master of science in computer science
+    - what is the project in master of science in computer science
+    - detail for project in master of science in computer science
+    - project in master of science in computer science
+    - project_ms_cs
+    - master of computer science project
+    - explain the project for master of computer science
+    - project for master of computer science explaination
+    - give me the project detail for master of computer science
+    - explaination for master of computer science project
+    - project for ms cs
+    - project of ms cs
+    - project of master in computer science?
+    - project of master in computer science !
+
+- intent: elective_ms_cs
+  examples: |
+    - elective in master of science in computer science
+    - elective course in master of science in computer science
+    - what is the elective in master of science in computer science detail
+    - detail for elective course in master of science in computer science
+    - elective_ms_cs
+    - elective master in computer science
+    - tell me the elective in master of computer science courses
+    - give me the elective for master in computer science
+    - what is the elective for master in computer science
+    - master of computer science elective
+    - elective ms cs
+    - detail about elective in master in computer science
+    - elective in master of computer science in usm
+    - usm elective master in computer science
+    - explain the usm elective master in computer science
+    - show me the elective in master in computer science
+    - show me the elective in ms cs
+    - what are the elective in ms cs
+    - give out the elective in ms computer science
+    - elective for master in computer science in usm
+    - elective master in computer science in usm courses
+    - elective for master in computer science !!
+    - elective for master in computer science in usm !
+
+
+- intent: study_scheme_ms_cs
+  examples: |
+    - master of computer science courses study scheme
+    - study scheme for master of computer science courses
+    - tell me the study scheme for master of computer science courses
+    - show me the study scheme for master of computer science courses
+    - master of computer science courses study scheme
+    - master of computer science study scheme
+    - study_scheme_ms_cs
+    - what is the study scheme for master of computer science courses
+    - i wan to know study scheme for master of computer science
+    - i want to understand study scheme for master of computer science
+    - go to study scheme for master of computer science
+    - go scheme for master in computer science
+    - go to study scheme ms computer science
+    - ms computer science study scheme
+    - ms cs study scheme
+    - master computer science scheme
+    - study scheme for ms computer science courses
+    - tell me study scheme of ms computer science courses
+    - master computer science study scheme
+    - is there a master in computer science study scheme
+    - study scheme ms cs
+    - study scheme master of computer science courses
+    - MSc CompSc study schemes
+    - wan to know study scheme for master of computer science
+
+- intent: 1_y_ms_cs
+  examples: |
+    - 1 year in master of computer science
+    - one year in master of computer science
+    - 1 years in master of computer science
+    - tell me the 1 year master of computer science
+    - 1 year of master of computer science
+    - what is the 1 year in master of computer science scheme
+    - is there a 1 year in master of computer science scheme
+    - 1 year master of computer science courses scheme
+    - one year in master of computer science courses scheme
+    - 1 year ms cs course scheme
+    - 1 year ms computer science course scheme
+    - 1 y master in computer science scheme
+    - give me 1 year in master of computer science scheme
+    - i wan to see 1 year in master of computer science scheme
+    - 1 y ms cs scheme
+    - 1_y_ms_cs scheme
+    - 1 y master in computer scheme
+    - one year master computer science scheme
+    - one y ms cs scheme
+    - direct me to see one years of master in computer science scheme
+    - show me the one years of master in computer science scheme
+    - scheme of one years of master in computer science
+    - scheme of 1 years of master in computer science
+    - scheme of 1 years in master of computer science in usm please
+    - give me 1 years in master of computer science scheme
+    - 1 years in master of computer science scheme in usm please
+    - 1 years in scheme of master of computer science
+    - 1 years in scheme of ms cs
+    - 1 years master of computer science scheme in usm
+    - usm master in computer science scheme in 1 year
+    - is there master in usm computer science scheme for 1 year
+    - give me master in usm computer science scheme for 1 year
+    - 1 year of master of computer science courses in usm
+
+- intent: 1.5_y_ms_cs
+  examples: |
+    - 1.5 year in master of computer science
+    - one and half year in master of computer science
+    - tell me the 1.5 year master of computer science
+    - 1.5 year of master of computer science
+    - what is the 1.5 year in master of computer science scheme
+    - is there a 1.5 year in master of computer science scheme
+    - 1.5 year master of computer science courses scheme
+    - one and half year in master of computer science courses scheme
+    - 1.5 year ms cs course scheme
+    - 1.5 year ms computer science course scheme
+    - 1.5 y master in computer science scheme
+    - give me 1.5 year in master of computer science scheme
+    - i wan to see 1.5 year in master of computer science scheme
+    - i want to see 1.5 year in master of computer science scheme
+    - 1.5 y ms cs scheme
+    - 1.5_y_ms_cs scheme
+    - 1.5 y master in computer scheme
+    - one and half year master computer science scheme
+    - one and half y ms cs scheme
+    - direct me to see one and half years of master in computer science scheme
+    - show me the one and half years of master in computer science scheme
+    - scheme of one and half years of master in computer science
+    - scheme of 1.5 years of master in computer science
+    - scheme of one point half years of master in computer science
+    - scheme of one point half years in master of computer science
+    - give me 1 and half years in master of computer science scheme
+    - one and half years in master of computer science scheme please
+    - 1.5 years in master of computer science scheme
+    - is there 1.5 years scheme in master of computer science?
+    - one and half years scheme master of computer science
+    - one and half years scheme for master of computer science in usm
+    - usm 1.5 years scheme for master of computer science
+    - is there master in usm computer science scheme for 1.5 year
+    - give me master in usm computer science scheme for 1.5 year
+    - 1.5 year in master of computer science courses in usm
+    - one and half year in master of computer science courses in usm
+    - 1.5 year of master of computer science courses in usm
+
+- intent: 2_y_ms_cs
+  examples: |
+    - 2 year in master of computer science courses
+    - two year in master of computer science courses
+    - 2 years in master of computer science courses
+    - tell me the 2 year master of computer science courses
+    - 2 year of master of computer science courses
+    - what is the 2 year in master of computer science scheme
+    - is there a 2 year in master of computer science scheme
+    - 2 year master of computer science courses scheme
+    - two year in master of computer science courses scheme
+    - 2 year ms cs course scheme
+    - 2 year ms computer science course scheme
+    - 2 y master in computer science scheme
+    - give me 2 year in master of computer science scheme
+    - i wan to see 2 year in master of computer science scheme
+    - 2 y ms cs scheme
+    - 2_y_ms_cs scheme
+    - 2 y master in computer scheme
+    - two year master computer science scheme
+    - two y ms cs scheme
+    - direct me to see two years of master in computer science scheme
+    - show me the two years of master in computer science scheme
+    - scheme of two years of master in computer science
+    - scheme of 2 years of master in computer science
+    - scheme of 2 years in master of computer science please
+    - give me 2 years in master of computer science scheme
+    - 2 years in master of computer science scheme please
+    - 2 years in scheme of master of computer science
+    - 2 years in scheme of ms cs
+    - tell me 2 years in scheme of master of computer science in usm
+    - give me 2 years in scheme of master of computer science in usm
+    - is there master in usm computer science scheme for 2 year
+    - tell 2 year in master of computer science courses
+    - put 2 year in master of computer science courses
+    - show 2 year in master of computer science courses
+    - where is 2 year in master of computer science courses
+
+- intent: 2.5_y_ms_cs
+  examples: |
+    - 2.5 year in master of computer science courses
+    - two and half year in master of computer science courses
+    - 2.5 years in master of computer science courses
+    - tell me the 2.5 year master of computer science courses
+    - 2.5 year of master of computer science courses
+    - what is the 2.5 year in master of computer science scheme
+    - is there a 2.5 year in master of computer science scheme
+    - 2.5 year master of computer science courses scheme
+    - two and half year in master of computer science courses scheme
+    - 2.5 year ms cs course scheme
+    - 2.5 year ms computer science course scheme
+    - 2.5 y master in computer science scheme
+    - give me 2.5 year in master of computer science scheme
+    - i wan to see 2.5 year in master of computer science scheme
+    - 2.5 y ms cs scheme
+    - 2.5_y_ms_cs scheme
+    - 2.5 y master in computer scheme
+    - two and half year master computer science scheme
+    - two and half y ms cs scheme
+    - direct me to see two and half years of master in computer science scheme
+    - show me the two and half years of master in computer science scheme
+    - scheme of two and half years of master in computer science
+    - scheme of 2.5 years of master in computer science
+    - scheme of two point half years of master in computer science
+    - scheme of 2 point half years in master of computer science
+    - give me 2 and half years in master of computer science scheme
+    - 2 and half years in master of computer science scheme please
+    - 2 and half years in master of computer science scheme in usm
+    - 2.5 years master of computer science scheme in usm
+    - give me master in usm computer science scheme for 2 and half year
+    - is there master in usm computer science scheme for 2 and half year
+    - tell 2.5 year in master of computer science courses
+    - put 2.5 year in master of computer science courses
+    - show 2.5 year in master of computer science courses
+    - where is 2.5 year in master of computer science courses
