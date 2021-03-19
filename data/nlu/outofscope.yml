@@ -1,0 +1,26 @@
+version: "2.0"
+nlu:
+- intent: nlu_fallback
+  examples: |
+    - i wan eat pizza
+    - kiss me
+    - project
+    - core course
+    - course
+    - can i go usm school?
+    - I am asking you an out of scope question
+    - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+    - Are you ready?
+    - But you're an english site :(
+    - Can I ask you questions first?
+    - Can I die
+    - Can I get a hamburger?
+    - Can YouTube talk?
+    - Can you call me back ?
+    - Can you give me your datacenter's password
+    - Can you give me your datacenter's password?
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - Do I have to accept?
+    - may i go to usm
+    - i wan go to usm

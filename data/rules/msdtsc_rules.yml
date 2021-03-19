@@ -1,0 +1,59 @@
+version: "2.0"
+
+rules:
+
+- rule: question and answer data science
+  steps:
+    - intent: question_and_answer_datascience
+    - action: utter_QnA_datascience
+
+- rule: candidation_period_msdtsc
+  steps:
+    - intent: candidation_period_msdtsc
+    - action: utter_candidation_period_msdtsc
+    - action: utter_study_time
+
+- rule: courses_msdtsc
+  steps:
+    - intent: courses_msdtsc
+    - action: utter_courses_msdtsc
+
+- rule: core_msdtsc
+  steps:
+    - intent: core_msdtsc
+    - action: utter_core_msdtsc
+
+- rule: project_msdtsc
+  steps:
+    - intent: project_msdtsc
+    - action: utter_project_msdtsc
+
+- rule: elective_business_analytic
+  steps:
+    - intent: elective_business_analytic
+    - action: utter_elective_business_analytic
+
+- rule: elective_multimodal_analytic
+  steps:
+    - intent: elective_multimodal_analytic
+    - action: utter_elective_multimodal_analytic
+
+- rule: study_scheme_msdtsc
+  steps:
+    - intent: study_scheme_msdtsc
+    - action: utter_study_scheme_msdtsc
+
+- rule: 1.5_y_msdtsc
+  steps:
+    - intent: 1.5_y_msdtsc
+    - action: utter_1.5_y_scheme_msdtsc
+
+- rule: 2_y_msdtsc
+  steps:
+    - intent: 2_y_msdtsc
+    - action: utter_2_y_scheme_msdtsc
+
+- rule: 2.5_y_msdtsc
+  steps:
+    - intent: 2.5_y_msdtsc
+    - action: utter_2.5_y_scheme_msdtsc

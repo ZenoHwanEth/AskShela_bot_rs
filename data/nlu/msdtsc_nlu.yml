@@ -1,0 +1,308 @@
+version: "2.0"
+
+nlu:
+
+- intent: candidation_period_msdtsc
+  examples: |
+    - canditation period for Data Science and Analytics
+    - what is the canditation period for Data Science and Analytics
+    - canditation period in data science
+    - candidation period in data analytics
+    - candidation_period_msdtsc
+    - detail about candidation period for data science
+    - detail about canditation period for data analytic
+    - is there a detail candidation period for data science and analytics
+    - please give me the candidation period for data science and analytics
+    - data science candidation period
+    - data analytic canditation period
+    - candidation period msdtsc
+    - candidation period for data science and analytic detail
+    - tell me candidation period for data science and analytic detail
+    - explain the candidation period for data science and analytic detail
+    - may i know the candidation period for data science and analytic
+    - detail for candidation period for data science and analytic
+    - candidation period msdtsc usm
+    - can i have candidation period master of data science and analytic
+    - master of data science and analytic candidation period
+    - explaination of candidation for master in data science and analytic
+    - duration for Data Science and Analytics
+    - duration for master in data science and analytic
+
+- intent: courses_msdtsc
+  examples: |
+    - courses in data science
+    - the course needed in data science major
+    - course in data science
+    - tell me the courses in data science
+    - courses_msdtsc
+    - course in data science and analytic
+    - please let me see the courses in data science and analyic
+    - courses in data analytic
+    - courses detail of data science
+    - detail of data science and analytic courses
+    - list out the data science and analytic courses
+    - master of data science and analytic courses
+    - tell the list of master of data science and analytic courses
+    - what are the list of master in data science and analytic courses
+    - explain the list of courses in master of data science and analytic
+    - is there a list of courses in master of data science and analytic
+    - courses msdtsc
+    - usm courses in master of data science and analytic
+    - data science courses in usm
+    - data analytic courses in usm
+    - data science and analytic courses in usm
+    - data science and analytic courses list !
+
+- intent: core_msdtsc
+  examples: |
+    - core course in master of science Data Science & Analytics
+    - core course in data science and analytics
+    - what is the core course detail in data science
+    - what is the core course in data analytic
+    - detail for core course in data science and analytic
+    - core course in data science
+    - core course in data analytic
+    - core_msdtsc
+    - core course in master of data science and analyic in usm
+    - usm core courses for master of data science and analytic
+    - tell me the core courses in master of data science
+    - explain the core courses in master of data science and analytic
+    - what are the core courses in master of data science and analytic
+    - give me the core courses detail for master of data science and analytic
+    - core courses of master in data science and analytic !
+    - core msdtsc
+    - core courses of master in data science explaination
+    - will you tell me the core coures in master of data science and analytic
+    - core courses details in master of data science
+    - bot, tell me the core course detail in master of data science in usm
+    - can give me the core course of master in data science for usm
+    - core courses of master in data science & analytic
+    - is there core course for master in data science analytic
+
+- intent: project_msdtsc
+  examples: |
+    - project for master of science Data Science & Analytics
+    - project in data science and analytics
+    - what is the project detail in data science
+    - what is the project in data analytic
+    - detail for project in data analytic
+    - project in data science
+    - project in data analytic
+    - project_msdtsc
+    - project detail for master of data science and analytic
+    - project detail for master of data science
+    - project detail for master of analytic
+    - project detail for master of data science and analytic in usm
+    - usm project detail for master in data science and analytic
+    - tell me the project detail for master in data science and analytic
+    - project in master of data science and analytic
+    - project in master of data science analytic in usm
+    - may i know the project detail for master of data science and analytic
+    - is there a project detail for master of data science
+    - is there a project detail for master of data science and analytic?
+    - tell me the project detail for master of data science
+    - tell me the project detail for master of data analytic
+    - project msdtsc
+    - explain the project detail for master of data science and analytic in usm
+    - usm project master in data science and analytic
+    - what project requirement for master of data science and analytic
+    - project plan for master of data science and analytic
+    - bot give me project code for data science
+
+- intent: elective_business_analytic
+  examples: |
+    - elective in business analytic
+    - elective course in business analytic
+    - what is the elective in business analytic course detail
+    - detail for elective course in business analytic
+    - elective_business_analytic
+    - elective business analytic courses
+    - tell me the elective business analytic courses
+    - show me the elective courses in business analytic
+    - elective courses in business analytic
+    - what are the elective course in business analytic ?
+    - give me the detail of elective in business analytic
+    - elective courses detail in business analytic major
+    - master of data science and analytic elective in business analtyic details
+    - elective business analytic
+    - bot give me the elective in business analytic details
+    - bot , show me the detail of elective business analytic
+    - get the detail of elective business analytic that is in master of data science and analytic
+    - detail elective course in business analytic
+    - master of data science and analytic elective in business analytic
+    - may i know the detail of elective courses in business analytic
+    - usm elective courses in business analytic
+    - elective courses for business analyticin usm
+    - elective courses detail for business analytic in usm
+    - courses of elective business analytic usm
+
+- intent: elective_multimodal_analytic
+  examples: |
+    - elective in multimodal analytic
+    - elective course in multimodal analytic
+    - what is the elective in multimodal analytic
+    - detail for elective course in multimodal analytic
+    - elective_multimodal_analytic
+    - elective multimodal analytic courses
+    - tell me the elective multimodal analytic courses
+    - show me the elective courses in multimodal analytic
+    - elective courses in multimodal analytic
+    - what are the elective course in multimodal analytic ?
+    - give me the detail of elective in multimodal analytic
+    - elective courses detail in multimodal analytic major
+    - master of data science and analytic elective in multimodal analytic details
+    - elective multimodal analytic
+    - bot give me the elective in multimodal analytic details
+    - bot , show me the detail of elective multimodal analytic
+    - get the detail of elective multimodal analytic that is in master of data science and analytic
+    - detail elective course in multimodal analytic
+    - master of data science and analytic elective in multimodal analytic
+    - may i know the detail of elective courses in multimodal analytic
+    - usm elective courses in multimodal analytic
+    - elective courses for multimodal analytic in usm
+    - elective courses detail for multimodal analytic in usm
+    - courses of elective multimodal analytic usm
+
+- intent: study_scheme_msdtsc
+  examples: |
+    - master in Data Science and Analytics study scheme
+    - study scheme for Data Science and Analytics
+    - tell me the study scheme for data science
+    - tell me the study scheme for data analytics
+    - show me the study scheme for data science and analytic
+    - Data Science and Analytics study scheme
+    - list me the study scheme for data science and analytic
+    - list me the study scheme for master in data science and analytic
+    - study scheme in master of data science and analytics
+    - may i have the study scheme for master of data science and analytic
+    - master of data science and analytic study scheme list
+    - is there a study scheme for master of data science and and analytic
+    - give all the different study scheme for master of data science and analytics
+    - what is the study scheme for data science and analytic
+    - bot, give me the study scheme for data science and analytics
+    - is there a study scheme for master in data science and analytics ?
+    - data science study scheme
+    - data analytic study scheme
+    - what about the study scheme for master in data science and analytics
+    - detail of study scheme for master in data science and analytics
+    - show me the list of study scheme for data science and analytics
+    - study scheme in master of data science and analytic
+    - study scheme of master of data science and analytic !
+    - where is the study scheme of master of data science and analytic.
+    - please show me the study scheme for data science and analytics
+    - gave me the study scheme of master in data science and analytics in usm pls .
+    - usm study scheme for master in data science and analytic
+
+- intent: 1.5_y_msdtsc
+  examples: |
+    - 1.5 years in master of science in data science and analytics
+    - one and half years in master of science in data science and analytics
+    - 1.5 years in data science scheme
+    - tell me the 1.5 years data science scheme
+    - 1.5 years of master in data science and analytic scheme
+    - what is 1.5 years in master of science in data science and analytics in usm
+    - may i know the courses of 1.5 years in master of data science and analytic
+    - what is one and half years in master of data science and analytics
+    - usm 1.5 years in master of science in data science and analytic
+    - master of data science and analytic for 1.5 years in usm
+    - please give me 1.5 years in scheme in master of data science and analytic
+    - pls give me 1.5 years in scheme in master of data science and analytic
+    - one and half years data science scheme
+    - one and half in data science and analytic scheme in usm
+    - 1.5 years of master in data science and analytic scheme in usm
+    - can i have the one and half years of data science and analytic scheme
+    - is there a 1.5 years in scheme in master of data science and analytic
+    - 1.5 years scheme for data science and analytic
+    - master of data science in 1.5 years scheme
+    - master of data science in one and half years scheme
+    - bot, tell me the 1.5 years scheme for master in data science and analytic
+    - bot, tell me the one and half years scheme for master in data science and analytic
+    - hi, is there a one and half years scheme for master in data science
+    - is there a one and half years scheme for master in data science
+    - gave me the one and half years scheme for master in data science and analytic
+    - 1.5 years scheme in master in data science
+    - 1.5 years scheme in master in data analytic
+    - master in data science in 1.5 years scheme
+    - master in data analytic in 1.5 years scheme
+    - hi , is there 1.5 years scheme for master in data science
+    - hi is there 1.5 years scheme for master in data science in usm
+    - master of data science in 1.5 years scheme in usm
+    - master of data science in one and half years scheme in usm
+    - i wan to see the one and half year program scheme for master of data science and analytic in usm .
+    - 1.5 y scheme for master of data science and analytic
+
+- intent: 2_y_msdtsc
+  examples: |
+    - 2 years in master of science in data science and analytisc
+    - two years in master of science in data science and analytics
+    - 2 years in data science scheme
+    - tell me the 2 years data science scheme
+    - 2 years of master in data science and analytic scheme
+    - what is 2 years in master of science in data science and analytics in usm
+    - may i know the courses of 2 years in master of data science and analytic
+    - what is two years in master of data science and analytics
+    - usm 2 years in master of science in data science and analytic
+    - master of data science and analytic for 2 years in usm
+    - please give me 2 years in scheme in master of data science and analytic
+    - pls give me 2 years in scheme in master of data science and analytic
+    - two years data science scheme
+    - two in data science and analytic scheme in usm
+    - 2 years of master in data science and analytic scheme in usm
+    - can i have the two years of data science and analytic scheme
+    - is there a 2 years in scheme in master of data science and analytic
+    - 2 years scheme for data science and analytic
+    - master of data science in 2 years scheme
+    - master of data science in two years scheme
+    - bot, tell me the 2 years scheme for master in data science and analytic
+    - bot, tell me the two years scheme for master in data science and analytic
+    - hi, is there a two years scheme for master in data science
+    - is there a two years scheme for master in data science
+    - gave me the two years scheme for master in data science and analytic
+    - 2 years scheme in master in data science
+    - 2 years scheme in master in data analytic
+    - master in data science in 2 years scheme
+    - master in data analytic in 2 years scheme
+    - hi , is there 2 years scheme for master in data science
+    - hi is there 2 years scheme for master in data science in usm
+    - master of data science in 2 years scheme in usm
+    - master of data science in two years scheme in usm
+    - i wan to see the two year program scheme for master of  data science and analytic in usm .
+    - 2 y scheme for master of data science and analytic
+
+- intent: 2.5_y_msdtsc
+  examples: |
+    - 2.5 years in master of science in data science and analytisc courses schemes
+    - two and half years in master of science in data science and analytics courses scheme
+    - 2.5 years in data science project scheme
+    - tell me the 2.5 years data science project scheme
+    - 2.5 years of master in data science and analytic project scheme
+    - what is 2.5 years in master of science in data science and analytics in usm scheme
+    - may i know the scheme courses of 2.5 years in master of data science and analytic
+    - what is two and half years in master of data science and analytics schemes
+    - usm 2.5 years in master of science in data science and analytic
+    - master of data science and analytic for 2.5 years in usm
+    - please give me 2.5 years in scheme in master of data science and analytic
+    - pls give me 2.5 years in scheme in master of data science and analytic
+    - two and half years data science scheme
+    - two and half in data science and analytic scheme in usm
+    - 2.5 years of master in data science and analytic scheme in usm
+    - can i have the two and half years of data science and analytic scheme
+    - is there a 2.5 years in scheme in master of data science and analytic
+    - 2.5 years scheme for data science and analytic
+    - master of data science in 2.5 years scheme
+    - master of data science in two and half years scheme
+    - bot, tell me the 2.5 years scheme for master in data science and analytic
+    - bot, tell me the two and half years scheme for master in data science and analytic
+    - hi, is there a two and half years scheme for master in data science
+    - is there a two and half years scheme for master in data science
+    - gave me the two and half years scheme for master in data science and analytic
+    - 2.5 years scheme in master in data science
+    - 2.5 years scheme in master in data analytic
+    - master in data science in 2.5 years scheme
+    - master in data analytic in 2.5 years scheme
+    - hi , is there 2.5 years scheme for master in data science
+    - hi is there 2.5 years scheme for master in data science in usm
+    - master of data science in 2.5 years scheme in usm
+    - master of data science in two and half years scheme in usm
+    - i wan to see the two and half year program scheme for master of data science and analytic in usm .
+    - 2.5 y scheme for master of data science and analytic

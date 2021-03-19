@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: tell registration fee
+  steps:
+    - intent: registration_fee
+    - action: utter_registration_fee
+
+- rule: semester intake period
+  steps:
+    - intent: semester_intake
+    - action: utter_semester_intake

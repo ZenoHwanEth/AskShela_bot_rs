@@ -14,20 +14,37 @@ intents:
   - bot_challenge
   - main_menu_btn
   - about_school_btn
-  - QnA-datascience
+  # master of science (data science & analytics)
+  - question_and_answer_datascience
   - program_structure
-  - candidation_period_msdtsc
+  - candidation_period_msdtsc #msdtsc -  master in data science
   - courses_msdtsc
-  - study_scheme_msdtsc
-  - evaluation
-  - graduation_requirement
   - core_msdtsc
   - project_msdtsc
   - elective_business_analytic
   - elective_multimodal_analytic
+  - school_evaluation
+  - graduation_requirement
+  - study_scheme_msdtsc
   - 1.5_y_msdtsc
   - 2_y_msdtsc
   - 2.5_y_msdtsc
+  # master of science (computer science)
+  - question_and_answer_ms_computerscience
+  - candidation_period_mscs
+  - courses_mscs
+  - study_scheme_ms_cs
+  - core_ms_cs
+  - project_ms_cs
+  - elective_ms_cs
+  - 1_y_ms_cs
+  - 1.5_y_ms_cs
+  - 2_y_ms_cs
+  - 2.5_y_ms_cs
+  - registration_guideline
+  - registration_fee
+  - semester_intake
+  - postgraduate_duration
 
 responses:
   utter_greet:
@@ -47,7 +64,7 @@ responses:
     - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "I am a Ask-Shela bot."
 
   utter_please_rephrase:
     - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
@@ -55,8 +72,12 @@ responses:
   utter_main_menu_btn:
     - text: "Here are the QnA main menu: "
       buttons:
-        - title: "Question about MSc (Data Science & Analytics)"
-          payload: "/QnA-datascience"
+        - title: "Question about Master in Data Science & Analytics"
+          payload: "/question_and_answer_datascience"
+        - title: "Question about Master in Computer Science"
+          payload: "/question_and_answer_ms_computerscience"
+        - title: "Duration for Postgraduation in Computer Science"
+          payload: "/postgraduate_duration"
         - title: "About Usm Computer Science School"
           payload: "/about_school_btn"
 
@@ -73,40 +94,40 @@ responses:
       text: "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
 
 # ----------------------------- Q n A of master in data science ---------------------------------------------------
-  utter_QnA-datascience:
+  utter_QnA_datascience:
     - text: "Please choose one of the topic: "
       buttons:
         - title: "Program Structure"
           payload: "/program_structure"
         - title: "Candidation Period"
           payload: "/candidation_period_msdtsc"
-        - title: "Courses"
+        - title: "Courses in data science"
           payload: "/courses_msdtsc"
         - title: "Study Scheme"
           payload: "/study_scheme_msdtsc"
         - title: "Evaluation"
-          payload: "/evaluation"
+          payload: "/school_evaluation"
         - title: "Graduation Requirement"
           payload: "/graduation_requirement"
 
+
   utter_program_structure:
-    - text: "Program structure:
-              10 course
-              3 elective - 12 unit
-              6 core - 24 unit
-              1 project - 8 unit
+    - text: "Program structure:\n
+             - 10 course\n
+             - 3 elective - 12 unit\n
+             - 6 core - 24 unit\n
+             - 1 project - 8 unit\n
               total:44 unit"
 
   utter_candidation_period_msdtsc:
-    - text: "18 month(min) - 36 month(max)
-  3 semester       6 semester"
+    - text: "18 month(min) - 36 month(max)\n3 semester       6 semester"
 
   utter_study_time:
-    - text: "All classes are schedule from 6 - 9pm"
+    - text: "All classes are scheduled from 6 - 9pm"
 
-  utter_courses:
+  utter_courses_msdtsc:
     - text: "There are 2 electives which are business analytics and multimodal analytics. \n
-    Below are detail for core, project and elective courses."
+      Below are detail for core, project and elective courses."
       buttons:
         - title: "Core"
           payload: "/core_msdtsc"
@@ -133,6 +154,14 @@ responses:
     - text: "Here is the detail for elective multimodal analytic"
       image: "https://i.imgur.com/S1tPL5Z.png"
 
+  utter_evalutation:
+    - text: "As for evaluation, for courses and project, you need a C+ or better for a pass"
+      image: "https://i.imgur.com/UnzE7HN.png"
+
+  utter_graduation_requirement:
+    - text: "For graduation requirement, you need a CGPA 3.0 and above to graduate."
+      image: "https://i.imgur.com/hrQIOyM.png"
+
   utter_study_scheme_msdtsc:
     - text: "Here are the study scheme available: "
       buttons:
@@ -155,10 +184,90 @@ responses:
     - text: "Here are the 2.5 years scheme: "
       image: "https://i.imgur.com/CtmsYZB.png"
 
-  utter_evalutation:
-    - text: "As for evaluation, for courses and project, you need a C+ or better for a pass"
-      image: "https://i.imgur.com/UnzE7HN.png"
+# ----------------------------- Q n A of master in computer science ---------------------------------------------------
+  utter_QnA_ms_cs:
+      - text: "Please choose one of the topic: "
+        buttons:
+          - title: "Program Structure"
+            payload: "/program_structure"
+          - title: "Candidation Period"
+            payload: "/candidation_period_mscs"
+          - title: "Courses of master of science in computer science"
+            payload: "/courses_mscs"
+          - title: "Study Scheme"
+            payload: "/study_scheme_ms_cs"
+          - title: "Evaluation"
+            payload: "/school_evaluation"
+          - title: "Graduation Requirement"
+            payload: "/graduation_requirement"
 
-  utter_graduation_requirement:
-    - text: "For graduation requirement, you need a CGPA 3.0 and above to graduate."
-      image: "https://i.imgur.com/hrQIOyM.png"
+  utter_candidation_period_mscs_fulltime:
+    - text: "Full time:\n12 month(min) - 24 month(max)\n2 semester       4 semester"
+
+  utter_candidation_period_mscs_parttime:
+    - text: "Part time:\n24 month(min) - 48 month(max)\n4 semester       8 semester"
+
+  utter_courses_mscs:
+    - text: "There are 2 electives which are data & knowledge engineering and enabling technologies & infrastructures. \nBelow are detail for core, project and elective courses."
+      buttons:
+          - title: "Core"
+            payload: "/core_ms_cs"
+          - title: "Project"
+            payload: "/project_ms_cs"
+          - title: "Elective "
+            payload: "/elective_ms_cs"
+
+  utter_core_ms_cs:
+    - text: "Core courses of master of science (computer science)"
+      image: "https://i.imgur.com/cBIw4s6.png"
+
+  utter_project_ms_cs:
+    - text: "Here is the detail for project in master of science (computer science)"
+      image: "https://i.imgur.com/5A0bshh.png"
+
+  utter_elective_ms_cs:
+    - text: "Here is the detail for elective courses in master of science (computer science)"
+      image: "https://i.imgur.com/NwXhknF.png"
+
+  utter_study_scheme_ms_cs:
+    - text: "Here are the study scheme available: "
+      buttons:
+        - title: "1 years"
+          payload: "/1_y_ms_cs"
+        - title: "1.5 years"
+          payload: "/1.5_y_ms_cs"
+        - title: "2 years"
+          payload: "/2_y_ms_cs"
+        - title: "2.5 years"
+          payload: "/2.5_y_ms_cs"
+
+  utter_1_y_scheme_ms_cs:
+    - text: "Here are the 1 years scheme: "
+      image: "https://i.imgur.com/3NRh63V.png"
+
+  utter_1.5_y_scheme_ms_cs:
+    - text: "Here are the 1.5 years scheme: "
+      image: "https://i.imgur.com/PrUhqhT.png"
+
+  utter_2_y_scheme_ms_cs:
+    - text: "Here are the 2 years scheme: "
+      image: "https://i.imgur.com/uqf75J0.jpg"
+
+  utter_2.5_y_scheme_ms_cs:
+    - text: "Here are the 2.5 years scheme: "
+      image: "https://i.imgur.com/krW3hWC.png"
+
+  utter_registration_fee:
+    - text: "the registration will be the following :"
+      image: "https://i.imgur.com/eAJa77Y.png"
+
+  utter_semester_intake:
+    - text: "The semester intake is February & September 😂 "
+
+  utter_duration_postgraduate:
+    - text: "Here is the duration for Post Graduation in Computer science 😬 : "
+      buttons:
+        - title: "Duration of Master in Data Science and Analytic"
+          payload: "/candidation_period_msdtsc"
+        - title: "Duration of Master in Computer Science"
+          payload: "/candidation_period_mscs"

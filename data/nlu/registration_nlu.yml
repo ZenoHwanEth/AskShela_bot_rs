@@ -1,0 +1,47 @@
+version: "2.0"
+nlu:
+
+- intent: registration_fee
+  examples: |
+    - what is the registration fee
+    - registration fee for postgraduation
+    - registration fee for postgraduation in usm
+    - usm registration fee for postgraduation
+    - what is the registration fee in usm
+    - please give me the registration fee detail
+    - registration fee detail
+    - registration fee detail in usm
+    - can u give me the registration fee ?
+    - registration cost
+    - registration payment
+    - registration charge
+    - registration price
+    - payment for registration
+    - could you tell me the registration payment
+    - registration cost detail for postgraduation
+    - usm postgraduation cost
+    - what is the registration cost for postgraduate in usm
+
+- intent: semester_intake
+  examples: |
+    - what is the semester intake
+    - semester intake
+    - semester intake for postgraduation
+    - semester intake for postgraduation in usm
+    - give me the semester intake period
+    - tell me when is the semester intake
+    - when is the semester intake
+    - semester intake for master program in usm
+    - when is the semester intake for master program in usm
+    - i wan to know the semester intake for postgraduation program
+    - tell me the semester admission in usm
+    - tell me the date for semester admission for postgraduation
+    - usm postgraduation semester period in usm
+    - what is the semester period in usm
+    - bot tell me the semester period in usm
+    - please , is there a semester period for postgrad computer science in usm
+    - semester intake for postgraduation in computer science
+    - semester intake time for postgraduation in computer science
+    - usm cs postgraduation semester intake
+
+
