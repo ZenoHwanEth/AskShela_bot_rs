@@ -52,6 +52,16 @@ nlu:
     - data analytic courses in usm
     - data science and analytic courses in usm
     - data science and analytic courses list !
+    - show me the courses in data science and analytic
+    - show me the list of courses in data science and analytics
+    - list of courses in data science and analytic
+    - bot, tell me the list of courses for data science
+    - hi, tell me the list of courses in data science and analytic
+    - usm list of course in postgraduate for data science and analytics
+    - usm pls tell me the list of courses offered for postgraduate data science
+    - courses offered for postgraduate of data science in cs
+    - pls where can i see courses offer by master of data science and analytic
+
 
 - intent: core_msdtsc
   examples: |

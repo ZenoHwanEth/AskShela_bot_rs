@@ -1,7 +1,7 @@
 import requests
 url = 'https://askshelabot.herokuapp.com/webhooks/rest/webhook'
 myobj = {
-"message": "hi",
+"message": "main menu",
 "sender": "2",
 }
 x = requests.post(url, json = myobj)

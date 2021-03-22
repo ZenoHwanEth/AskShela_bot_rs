@@ -19,10 +19,26 @@ nlu:
     - yo
     - greet
     - helo
+    - Bom dia
+    - Bonjour
+    - Good Morning
+    - Good morning
+    - Good mourning
+    - Guten Morgen
+    - HELLO
+    - HEY
+    - HEllo
+    - HI
+    - Hello!
+    - Hi Shela
+    - hi bot
+    - hi hi
+    - hi there
+    - hi :)
 
 - intent: goodbye
   examples: |
-    - good afternoon
+    - byebye
     - cu
     - good by
     - cee you later
@@ -33,6 +49,14 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - see you
+    - see u later
+    - see u
+    - bye man
+    - sayonara
+    - see ya shela
+    - see ya bot
+    - bye bye see ya
 
 - intent: affirm
   examples: |
@@ -49,6 +73,21 @@ nlu:
     - yes of course
     - alright man
     - great
+    - ya i am
+    - yes I do
+    - yes accept please
+    - yes baby
+    - yes cool
+    - yes give me information
+    - yes go ahead
+    - yes go for it
+    - yes great
+    - yes i accept
+    - yes i agree
+    - yes i have built a bot before
+    - yes i have!
+    - yes it is
+    - yes it was okay
 
 - intent: deny
   examples: |
@@ -66,6 +105,18 @@ nlu:
     - i am not
     - no bro
     - not !!!
+    - na
+    - nah
+    - nah I'm good
+    - nah not for me
+    - nah, first time
+    - nah, i'm good
+    - nehi
+    - nein
+    - neither
+    - never
+    - never mind
+    - no :(
 
 - intent: mood_great
   examples: |
@@ -106,6 +157,10 @@ nlu:
     - disappointed
     - i am not happy
     - i am not good today
+    - fking sad
+    - i am fking sad
+    - fucking sad
+    - i felt very sad
 
 - intent: bot_challenge
   examples: |
@@ -146,6 +201,18 @@ nlu:
     - i wan main menu
     - go to main menu
     - where is main menu
+    - is there a main menu
+    - main menu !
+    - show me main menu
+    - give me main menu pls
+    - pls main menu
+    - get me a main menu
+    - pop main menu
+    - gave me main menu
+    - main menu pls
+    - i wan ask for main menu
+    - where is main menu
+    - giving me main menu
 
 - intent: about_school_btn
   examples: |
@@ -168,6 +235,18 @@ nlu:
     - usm computer science school detail
     - detail about computer science school in usm
     - what do you about computer science in usm school
+    - tell me about computer science school in usm
+    - could you tell me the detail of computer science in usm
+    - usm about school button
+    - about school button
+    - usm detail of about school
+    - show me the about school details
+    - where to find usm school computer science detail
+    - cs about school detail
+    - bot, tell me about the school
+    - hey show me the detail about the school
+    - can you show me the details about the usm cs school
+    - usm cs about school details
 
 - intent: question_and_answer_datascience
   examples: |
@@ -189,6 +268,23 @@ nlu:
     - question and answer for ms data data science in usm
     - Qna of data analytic in usm
     - question answer for master in data analytic in usm
+    - please list the question and answer about master in data science
+    - is there a list of master in Data Science & Analytics
+    - QnA master in Data Science & Analytics !!
+    - list me question and answer for master in data science and analytic
+    - data science and analytic major question and answers
+    - what is the question and answer for data science and analytic postgraduate
+    - tell me the list of questions and answers for data science and analytic postgraduate
+    - hey, can tell me the list of questions and answers for data science postgraduate
+    - list from questions and answers for data analytic master
+    - where are the Qna for data science for postgraduate
+    - qna for postgraduate in data scinece in usm
+    - about question and answer in data science
+    - detail for questions and answers in data science
+    - hi, show me the information for master in data science
+    - bot, tell me the information for master in data science and analytic
+    - can you show me the information for master in data science
+    - is there information for master in data science and analytic
 
 - intent: program_structure
   examples: |
@@ -208,6 +304,24 @@ nlu:
     - program structure please
     - program structure pls
     - do you have program structure?
+    - program structure !
+    - can you show me the program structure
+    - detail about program structure
+    - master program usm program structure
+    - bot, show me the program structure
+    - tell me the program structure in master program in usm
+    - is there a program structure that i can refer ?
+    - hi, show me usm school postgraduate program structure
+    - program structure in usm
+    - please show me program structure.
+    - is there a program structure for master in data science
+    - is there a program stucture for master in computer science
+    - explain the program structure
+    - explaination of the program structure
+    - asking for program structure
+    - program structure in usm master program !
+    - gave me a program structure
+    - where is the program structure
 
 - intent: school_evaluation
   examples: |
@@ -232,6 +346,16 @@ nlu:
     - evaluation detail
     - evaluation detail please
     - evaluation detail pls
+    - where is the evaluation
+    - tell me the evaluation of results
+    - asking for evaluation of results
+    - pls show me the evaluation of master program
+    - asking for evaluation data science
+    - gave me the evaluation for master program
+    - evaluation detail in postgraduate program !
+    - evaluation pls man
+    - is there an evaluation in postgraduate or master program
+    - bot, show me evalaution details
 
 - intent: graduation_requirement
   examples: |
@@ -249,6 +373,23 @@ nlu:
     - is there a graduation requirement?
     - what is the graduation requirement
     - what is the graduation requirement for data science
+    - tell me the graduation requirement for cs in usm
+    - bot, show me the graduation requirement
+    - show me graduation requirement
+    - where can i see the graduation requirement
+    - where is my graduation requirement
+    - graduation requirement !
+    - tell me graduation requirement
+    - pls tell me the graduation requirement
+    - where is the graduation requirement
+    - how to get graduation requirement
+    - please show me the graduation requirement
+    - usm graduation requirement
+    - requirement for graduation
+    - asking for requirement for graduation
+    - how to see the requirement for graduation
+    - pls tell me the requirement for graduation
+    - requirement for graduation !
 
 - intent: postgraduate_duration
   examples: |
@@ -260,7 +401,7 @@ nlu:
     - how long is the duration for postgraduate program in computer science in usm
     - tell me how long is the duration for postgraduate program in cs school
     - postgraduate duration
-    - postgraduateduration in usm
+    - postgraduate duration in usm
     - postgraduate usm time taken
     - time used duration for postgraduate in usm
     - duration for postgraduate !
@@ -270,4 +411,156 @@ nlu:
     - details for duration for postgraduate
     - detail for period in postgraduate in usm
     - period in postgraduate
+    - duration for postgraduation
+    - duration for master program
+    - asking for duration in postgraduate program
+    - usm postgraduation duration
+    - time taken in usm postgraduation
+    - how long is the usm postgraduation
+    - i wan to ask about postgraduation duration
+    - master program duration in cs
+    - cs duration for postgraduation
+    - cs duration for master program
+    - usm cs duration for master program
+    - could you tell me duration for master program
+    - bot, tell me the duration for postgraduation
+    - hi, tell me the duration for postgraduation
+
+- intent: application_postgrad_program
+  examples: |
+    - application for postgraduation program
+    - how to i apply to postgraduation program
+    - apply to postgraduation
+    - application for postgraduation program in computer science
+    - where do i apply to postgraduation program
+    - computer science postgradaution application
+    - application postgraduation program !
+    - how do you apply to postgraduation program
+    - how do i apply to master program in computer science
+    - is there a way to apply for postgraduation
+    - application master program
+    - application master program in computer science
+    - application master program in cs
+    - application for postgraduation in cs
+    - how can i apply for postgraduation in computer science
+    - Please tell me the application progress for postgraduation
+    - progress in application in postgraduation in cs
+    - computer science postgraduate application
+    - detail computer science postgraduate application
+    - application in usm
+    - application to postgraduation program in usm
+    - where can i apply to postgraduation program
+    - application to usm computer science postgraduation program
+    - cs postgraduation application
+    - apply guide to postgraduation in computer science
+    - guide to apply for postgraduation in usm
+    - tell me the guide for application for postgraduate
+    - cs postgraduation application guide
+    - bot, tell me the application guide
+    - hi, tell me the application to cs master program
+    - hi, tell me the application to cs postgraduation
+
+- intent: academic_calendar
+  examples: |
+    - academic calendar
+    - academic calendar for postgraduation program
+    - usm postgraduation program academic calendar
+    - academic calendar master program in usm
+    - please tell me the academic calendar for postgraduate program
+    - postgraduate program academic calendar
+    - is there a academic calendar for master program
+    - tell me the academic calendar to postgraduate program
+    - how do i get academic calendar for postgraduate program
+    - academic calendar postgraduate
+    - academic calendar postgraduate in usm
+    - usm academic calendar postgraduate
+    - is there a usm postgraduate academic calendar
+    - where do i get usm academic calendar postgraduate
+    - academic calendar master program
+    - academic calendar for master progrom
+    - bot, tell me the academic calendar for postgraduate
+    - hi, is there a academic calendar?
+    - are there any academic calendar for postgraduate
+    - asking for academic calendar
+    - academic calendar in usm
+    - could you tell me the academic calendar
+    - show me academic calendar
+    - usm postgraduate academic calendar
+    - asking for academic calendar
+    - where is the academic calendar for usm
+    - pls tell me the academic calendar
+    - show me pls the academic calender for master program
+    - master program for academic calendar
+    - hi, tell me the academic calendar
+    - gave me the academic calendar
+
+- intent: teaching_timetable
+  examples: |
+    - teaching timetable in postgraduate usm
+    - tell me the teaching timetable in postgraduate in usm
+    - asking for teaching timetable
+    - postgraduate teaching timetable
+    - usm postgraduate teaching timetable
+    - hi, postgraduate teaching timetable in usm
+    - bot, postgraduate teaching timetable for master postgraduate
+    - master postgraduate teaching timetable in usm
+    - how to find teaching timetable postgraduate
+    - please tell me to get postgraduate teaching timetable
+    - where to find get postgraduate teaching timetable
+    - teaching timetable !
+    - is there a teaching timetable ?
+    - teaching timetable postgraduate in usm
+    - pls teaching timetable postgraduate
+    - i wan to get teaching timetable for postgraduate
+    - i want to get teaching timetable for postgraduate in usm
+    - teaching timetable in usm
+    - detail of teaching timetable
+    - teaching timetable detail in usm
+    - teaching timetable
+    - show me the teaching timetable
+    - allow me to see the teaching timetable
+    - can u show me the teaching timetable?
+    - teaching timetable in usm postgraduatie for cs
+    - cs teaching timetable
+    - cs postgraduation teaching timetable
+    - please show me cs postgraduate teaching timetable
+    - can i have detail for teaching timetable for usm
+    - usm teaching timetable pls man
+    - i wan to use teaching timetable
+
+- intent: useful_forms
+  examples: |
+    - useful forms
+    - handy forms
+    - useful files
+    - get useful files
+    - get a useful forms
+    - add course form
+    - drop course form
+    - smart card application form
+    - can i get the add course form
+    - can i get the drop course form
+    - can i get the smart card application form
+    - useful forms button
+    - useful forms from postgraduate computer science
+    - useful forms from postgraduate computer science in usm
+    - can i get useful forms for postgraduate in computer science
+    - useful forms !
+    - tell me the forms which is useful for postgraduate in computer science
+    - is there a add course form ?
+    - is there a drop course form ?
+    - is there a smart card application form
+    - get me useful forms for postgraduate in computer science
+    - where can i get useful forms for postgraduate in computer science
+    - is there handy forms for postgraduate in cs in usm
+    - usm cs postgraduate useful forms
+    - show me some useful forms for postgraduate in cs
+    - detail for some useful forms for postgraduate in computer science
+    - cs useful form for computer science
+    - get me handy forms for master in computer science
+    - show me the add course form
+    - show me the drop course form
+    - show me smart card application form
+    - bot, tell me the useful form for postgraduate in computer science
+
 

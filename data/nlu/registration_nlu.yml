@@ -44,4 +44,24 @@ nlu:
     - semester intake time for postgraduation in computer science
     - usm cs postgraduation semester intake
 
+- intent: registration_newpostgrad_guideline
+  examples: |
+    - registration for new postgraduate guideline
+    - please tell me the registration progress for new postgraduate
+    - guideline for registration of new master student
+    - info guideline for registration of new master student
+    - information registration guideline of new postgraduate student
+    - registration guideline
+    - can i get registration guideline for postgraduate in usm
+    - usm registration guideline
+    - may i get the registration guideline for usm
+    - i wan to see the postgraduate registration guideline
+    - registration guideline !
+    - where is registration guideline for computer science postgraduate
+    - i want to see the postgraduate guideline computer science
+    - usm registration guideline computer science
+    - postgraduate computer science usm registration
+    - tell me the registration progress for new postgraduate
+    - what is registration progress for postgraduate in usm
+    - pls give me registration process for new postgraduate
 

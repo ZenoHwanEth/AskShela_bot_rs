@@ -20,6 +20,13 @@ nlu:
     - QnA ms computer science
     - list of question and answer about master in computer science
     - usm list of question and answer in master for computer science
+    - question and answer in master of cs
+    - question of master in cs
+    - information about master in computer science
+    - can you show me the information of master in cs
+    - is there information for master in computer science
+    - show me the information for master in computer science
+    - bot, show me the information in master in computer science in usm
 
 - intent: candidation_period_mscs
   examples: |
@@ -67,6 +74,16 @@ nlu:
     - ms cs courses
     - usm master in computer science courses
     - usm master in cs courses
+    - show me the list of courses in master of computer science
+    - could you show me lists of courses for master in computer science
+    - is there a list for courses for master in computer science
+    - list in courses for master in computer science
+    - postgraduate in master of computer science list of courses
+    - gave me the lists in master of computer science courses
+    - are you going to give me list of courses in master in computer science
+    - detail for lists of courses in computer science
+    - i wan to see the detail of lists of course in computer science
+    - can i get lists of courses in postgraduate in cs
 
 
 - intent: core_ms_cs
@@ -89,6 +106,11 @@ nlu:
     - give the core course in master of computer science
     - master of computer science core course
     - master of computer science core course !!
+    - core courses master computer science
+    - i wan to see the core course for master in computer science
+    - i want to see the core courses in ms of computer science
+    - could you tell me the core course for master in cs
+    - master in cs core course in usm
 
 - intent: project_ms_cs
   examples: |
@@ -108,6 +130,17 @@ nlu:
     - project of ms cs
     - project of master in computer science?
     - project of master in computer science !
+    - please tell me the project for master in computer science
+    - pls tell me the project in master of computer science
+    - bot, tell me the project for master in computer scinece
+    - hi, tell me the project for master in computer science
+    - usm cs project for master in cs
+    - master in cs project in usm
+    - can you tell me the detail for project in master of computer science
+    - could you show me detail for project in ms cs
+    - show him the detail for project of master in cs
+    - what is the detail for project of master in cs
+    - explain the detail for project in master of computer science
 
 - intent: elective_ms_cs
   examples: |

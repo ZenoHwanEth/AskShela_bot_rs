@@ -17,6 +17,13 @@ rules:
   - intent: nlu_fallback
   - action: utter_please_rephrase
 
+- rule: about cs school button
+  steps:
+    - intent: about_school_btn
+    - action: utter_about_school_btn_1
+    - action: utter_about_school_btn_2
+    - action: utter_about_school_btn_3
+
 - rule: main menu
   steps:
     - intent: main_menu_btn
@@ -41,3 +48,59 @@ rules:
   steps:
     - intent: postgraduate_duration
     - action: utter_duration_postgraduate
+
+- rule: application postgraduation
+  steps:
+    - intent: application_postgrad_program
+    - action: utter_application_postgraduate
+    - action: utter_application_postgraduate_1
+
+- rule: registration_newpostgrad_guideline
+  steps:
+    - intent: registration_newpostgrad_guideline
+    - action: utter_register_guide_new_postgra
+
+- rule: academic_calendar
+  steps:
+    - intent: academic_calendar
+    - action: utter_academic_calendar
+
+- rule: teaching_timetable
+  steps:
+    - intent: teaching_timetable
+    - action: utter_teaching_timetable
+
+- rule: useful_forms
+  steps:
+    - intent: useful_forms
+    - action: utter_useful_forms
+
+- rule: other_questions
+  steps:
+    - intent : other_questions
+    - action : utter_other_questions
+
+- rule: utter_can_i_get_more_unit
+  steps:
+    - intent : can_i_get_more_unit
+    - action : utter_can_i_get_more_unit
+
+- rule: which_course_register
+  steps:
+    - intent : which_course_register
+    - action : utter_which_course_register
+
+- rule: where_submit_coursework
+  steps:
+    - intent : where_submit_coursework
+    - action : utter_where_submit_coursework
+
+- rule: take_all_elective
+  steps:
+    - intent : take_all_elective
+    - action : utter_take_all_elective
+
+- rule: scholarship_link
+  steps:
+    - intent : scholarship_link
+    - action : utter_scholarship_link
