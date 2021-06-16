@@ -6,8 +6,10 @@ rules:
   steps:
     - intent: registration_fee
     - action: utter_registration_fee
+    - action: utter_main_menu_btn
 
 - rule: semester intake period
   steps:
     - intent: semester_intake
     - action: utter_semester_intake
+    - action: utter_main_menu_btn

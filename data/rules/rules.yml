@@ -23,6 +23,7 @@ rules:
     - action: utter_about_school_btn_1
     - action: utter_about_school_btn_2
     - action: utter_about_school_btn_3
+    - action: utter_main_menu_btn
 
 - rule: main menu
   steps:
@@ -33,16 +34,19 @@ rules:
   steps:
     - intent: program_structure
     - action: utter_program_structure
+    - action: utter_main_menu_btn
 
 - rule: school_evaluation
   steps:
     - intent: school_evaluation
     - action: utter_evalutation
+    - action: utter_main_menu_btn
 
 - rule: graduation_requirement
   steps:
     - intent: graduation_requirement
     - action: utter_graduation_requirement
+    - action: utter_main_menu_btn
 
 - rule: postgraduate_duration
   steps:
@@ -54,26 +58,31 @@ rules:
     - intent: application_postgrad_program
     - action: utter_application_postgraduate
     - action: utter_application_postgraduate_1
+    - action: utter_main_menu_btn
 
 - rule: registration_newpostgrad_guideline
   steps:
     - intent: registration_newpostgrad_guideline
     - action: utter_register_guide_new_postgra
+    - action: utter_main_menu_btn
 
 - rule: academic_calendar
   steps:
     - intent: academic_calendar
     - action: utter_academic_calendar
+    - action: utter_main_menu_btn
 
 - rule: teaching_timetable
   steps:
     - intent: teaching_timetable
     - action: utter_teaching_timetable
+    - action: utter_main_menu_btn
 
 - rule: useful_forms
   steps:
     - intent: useful_forms
     - action: utter_useful_forms
+    - action: utter_main_menu_btn
 
 - rule: other_questions
   steps:
@@ -84,23 +93,40 @@ rules:
   steps:
     - intent : can_i_get_more_unit
     - action : utter_can_i_get_more_unit
+    - action: utter_main_menu_btn
 
 - rule: which_course_register
   steps:
     - intent : which_course_register
     - action : utter_which_course_register
+    - action: utter_main_menu_btn
 
 - rule: where_submit_coursework
   steps:
     - intent : where_submit_coursework
     - action : utter_where_submit_coursework
+    - action: utter_main_menu_btn
 
 - rule: take_all_elective
   steps:
     - intent : take_all_elective
     - action : utter_take_all_elective
+    - action: utter_main_menu_btn
 
 - rule: scholarship_link
   steps:
     - intent : scholarship_link
     - action : utter_scholarship_link
+    - action: utter_main_menu_btn
+
+- rule: online_study
+  steps:
+    - intent : online_study
+    - action : utter_online_study
+    - action: utter_main_menu_btn
+
+- rule: Fee
+  steps:
+    - intent : registration_fee
+    - action : utter_registration_fee
+    - action: utter_main_menu_btn

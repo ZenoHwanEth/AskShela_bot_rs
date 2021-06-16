@@ -12,6 +12,7 @@ rules:
     - intent: candidation_period_msdtsc
     - action: utter_candidation_period_msdtsc
     - action: utter_study_time
+    - action: utter_main_menu_btn
 
 - rule: courses_msdtsc
   steps:
@@ -22,38 +23,46 @@ rules:
   steps:
     - intent: core_msdtsc
     - action: utter_core_msdtsc
+    - action: utter_main_menu_btn
 
 - rule: project_msdtsc
   steps:
     - intent: project_msdtsc
     - action: utter_project_msdtsc
+    - action: utter_main_menu_btn
 
 - rule: elective_business_analytic
   steps:
     - intent: elective_business_analytic
     - action: utter_elective_business_analytic
+    - action: utter_main_menu_btn
 
 - rule: elective_multimodal_analytic
   steps:
     - intent: elective_multimodal_analytic
     - action: utter_elective_multimodal_analytic
+    - action: utter_main_menu_btn
 
 - rule: study_scheme_msdtsc
   steps:
     - intent: study_scheme_msdtsc
     - action: utter_study_scheme_msdtsc
+    - action: utter_main_menu_btn
 
 - rule: 1.5_y_msdtsc
   steps:
     - intent: 1.5_y_msdtsc
     - action: utter_1.5_y_scheme_msdtsc
+    - action: utter_main_menu_btn
 
 - rule: 2_y_msdtsc
   steps:
     - intent: 2_y_msdtsc
     - action: utter_2_y_scheme_msdtsc
+    - action: utter_main_menu_btn
 
 - rule: 2.5_y_msdtsc
   steps:
     - intent: 2.5_y_msdtsc
     - action: utter_2.5_y_scheme_msdtsc
+    - action: utter_main_menu_btn

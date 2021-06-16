@@ -13,6 +13,7 @@ rules:
     - action: utter_candidation_period_mscs_fulltime
     - action: utter_candidation_period_mscs_parttime
     - action: utter_study_time
+    - action: utter_main_menu_btn
 
 - rule: courses_mscs
   steps:
@@ -23,38 +24,46 @@ rules:
   steps:
     - intent: core_ms_cs
     - action: utter_core_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: project_ms_cs
   steps:
     - intent: project_ms_cs
     - action: utter_project_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: elective_ms_cs
   steps:
     - intent: elective_ms_cs
     - action: utter_elective_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: study_scheme_ms_cs
   steps:
     - intent: study_scheme_ms_cs
     - action: utter_study_scheme_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: 1_y_ms_cs
   steps:
     - intent: 1_y_ms_cs
     - action: utter_1_y_scheme_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: 1.5_y_ms_cs
   steps:
     - intent: 1.5_y_ms_cs
     - action: utter_1.5_y_scheme_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: 2_y_ms_cs
   steps:
     - intent: 2_y_ms_cs
     - action: utter_2_y_scheme_ms_cs
+    - action: utter_main_menu_btn
 
 - rule: 2.5_y_ms_cs
   steps:
     - intent: 2.5_y_ms_cs
     - action: utter_2.5_y_scheme_ms_cs
+    - action: utter_main_menu_btn

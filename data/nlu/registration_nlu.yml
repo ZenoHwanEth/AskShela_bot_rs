@@ -21,6 +21,19 @@ nlu:
     - registration cost detail for postgraduation
     - usm postgraduation cost
     - what is the registration cost for postgraduate in usm
+    - is there information of registration cost for postgraduate in cs
+    - information of registration fee
+    - info for registration fee to computer science postgraduate in cs
+    - bot, registration cost
+    - bot, registration fee
+    - bot, registration charge
+    - bot, registration price
+    - hey, tell me the registration fee
+    - can i have the information about the registration fee
+    - information of registration cost for postgraduate in cs
+    - could you tell me the registration cost ?
+    - wan to know the registration fee
+    - show me the registration fee
 
 - intent: semester_intake
   examples: |
@@ -64,4 +77,16 @@ nlu:
     - tell me the registration progress for new postgraduate
     - what is registration progress for postgraduate in usm
     - pls give me registration process for new postgraduate
+    - registration
+    - show me the registration
+    - registration to usm postgraduation of computer science
+    - hi, show me the registration to usm postgraduate in computer science
+    - bot, can i know the about the registration to usm postgraduation in cs
+    - information about the registration to usm postgrad in cs
+    - asking for information for registration to usm postgraduation in cs
+    - guideline for registration to postgraduate in cs
+    - tell me the registration to master program in usm for cs
+    - cs computer science registration to master program
+    - registration !
+    - usm guideline for registration to master program or postgrad in cs
 

@@ -53,13 +53,6 @@ stories:
   - intent: main_menu_btn
   - action: utter_main_menu_btn
 
-- story: about cs school button
-  steps:
-    - intent: about_school_btn
-    - action: utter_about_school_btn_1
-    - action: utter_about_school_btn_2
-    - action: utter_about_school_btn_3
-
 - story: QnA datascience
   steps:
     - intent: main_menu_btn

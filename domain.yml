@@ -56,6 +56,7 @@ intents:
   - where_submit_coursework
   - take_all_elective
   - scholarship_link
+  - online_study
 
 responses:
   utter_greet:
@@ -78,18 +79,18 @@ responses:
     - text: "I am a Ask-Shela bot."
 
   utter_please_rephrase:
-    - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+    - text: "Sorry I have no answer for this question, kindly email <a href = \"mailto:sheela@usm.my\">sheela@usm.my</a>"
 
   utter_main_menu_btn:
-    - text: "Here are the QnA main menu   ☺️: "
+    - text: "Here are the QnA main menu: "
       buttons:
-        - title: "Question about Master in Data Science & Analytics"
+        - title: "Master of Science (Data Science & Analytics)"
           payload: "/question_and_answer_datascience"
-        - title: "Question about Master in Computer Science"
+        - title: "Master of Science (Computer Science)"
           payload: "/question_and_answer_ms_computerscience"
         - title: "Duration"
           payload: "/postgraduate_duration"
-        - title: "Application"
+        - title: " Guidelines for application to postgraduate programme"
           payload: "/application_postgrad_program"
         - title: "Registration"
           payload: "/registration_newpostgrad_guideline"
@@ -99,14 +100,16 @@ responses:
           payload: "/useful_forms"
         - title: "Graduation requirement"
           payload: "/graduation_requirement"
+        - title: "Registration Fee"
+          payload: "/registration_fee"
         - title: "Passing Grade"
           payload: "/school_evaluation"
         - title: "Other Questions"
           payload: "/other_questions"
-        - title: "About Usm Computer Science School"
+        - title: "About Usm School of Computer Science"
           payload: "/about_school_btn"
 
-# -----------------------------ABOUT USM COMPUTER SCIENCE SCHOOL-----------------------------------------
+# -----------------------------ABOUT USM SCHOOL OF COMPUTER SCIENCE-----------------------------------------
   utter_about_school_btn_1:
     - text: "The School of Computer Science was established on 1st of March 1995."
 
@@ -116,7 +119,7 @@ responses:
 
   utter_about_school_btn_3:
     - text: "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
-      image: "https://i.imgur.com/iPkqnuH.jpg"
+      image: "cs_school.jpg"
 # ----------------------------- Q n A of master in data science ---------------------------------------------------
   utter_QnA_datascience:
     - text: "Please choose one of the topic: "
@@ -167,27 +170,27 @@ responses:
 
   utter_core_msdtsc:
     - text: "Core courses of master of science (Data science & analytics)"
-      image: "https://i.imgur.com/0G3cp95.png"
+      image: "Ms data analytic - core.png"
 
   utter_project_msdtsc:
     - text: "Here is the detail for project in master of science (Data science)"
-      image: "https://i.imgur.com/CxZ4jRB.png"
+      image: "Ms data science - project.png"
 
   utter_elective_business_analytic:
     - text: "Here is the detail for elective business analytic"
-      image: "https://i.imgur.com/QjHdMW8.png"
+      image: "elective business analytic.png"
 
   utter_elective_multimodal_analytic:
     - text: "Here is the detail for elective multimodal analytic"
-      image: "https://i.imgur.com/S1tPL5Z.png"
+      image: "elective multimodal analytic.png"
 
   utter_evalutation:
-    - text: "As for evaluation, for courses and project, you need a C+ or better for a pass"
-      image: "https://i.imgur.com/UnzE7HN.png"
+    - text: "As for evaluation, for courses and project, you need a C+ (2.33) or better for a pass"
+      image: "evaluation.png"
 
   utter_graduation_requirement:
     - text: "For graduation requirement, you need a CGPA 3.0 and above to graduate."
-      image: "https://i.imgur.com/hrQIOyM.png"
+      image: "graduation requirement.png"
 
   utter_study_scheme_msdtsc:
     - text: "Here are the study scheme available: "
@@ -203,15 +206,15 @@ responses:
 
   utter_1.5_y_scheme_msdtsc:
     - text: "Here are the 1.5 years scheme: "
-      image: "https://i.imgur.com/GpDiYjT.png"
+      image: "1.5_y_scheme_msdtsc.png"
 
   utter_2_y_scheme_msdtsc:
     - text: "Here are the 2 years scheme: "
-      image: "https://i.imgur.com/t2HzTXm.png"
+      image: "2_y_scheme_msdtsc.png"
 
   utter_2.5_y_scheme_msdtsc:
     - text: "Here are the 2.5 years scheme: "
-      image: "https://i.imgur.com/CtmsYZB.png"
+      image: "2.5_y_scheme_msdtsc.png"
 
 # ----------------------------- Q n A of master in computer science ---------------------------------------------------
   utter_QnA_ms_cs:
@@ -252,15 +255,15 @@ responses:
 
   utter_core_ms_cs:
     - text: "Core courses of master of science (computer science)"
-      image: "https://i.imgur.com/cBIw4s6.png"
+      image: "Ms computer science - core.png"
 
   utter_project_ms_cs:
     - text: "Here is the detail for project in master of science (computer science)"
-      image: "https://i.imgur.com/5A0bshh.png"
+      image: "project detail ms cs.png"
 
   utter_elective_ms_cs:
     - text: "Here is the detail for elective courses in master of science (computer science)"
-      image: "https://i.imgur.com/NwXhknF.png"
+      image: "elective ms cs.png"
 
   utter_study_scheme_ms_cs:
     - text: "Here are the study scheme available: "
@@ -278,23 +281,23 @@ responses:
 
   utter_1_y_scheme_ms_cs:
     - text: "Here are the 1 years scheme: "
-      image: "https://i.imgur.com/3NRh63V.png"
+      image: "1_y_scheme_ms_cs.png"
 
   utter_1.5_y_scheme_ms_cs:
     - text: "Here are the 1.5 years scheme: "
-      image: "https://i.imgur.com/PrUhqhT.png"
+      image: "1.5_y_scheme_ms_cs.png"
 
   utter_2_y_scheme_ms_cs:
     - text: "Here are the 2 years scheme: "
-      image: "https://i.imgur.com/uqf75J0.jpg"
+      image: "2_y_scheme_ms_cs.jpg"
 
   utter_2.5_y_scheme_ms_cs:
     - text: "Here are the 2.5 years scheme: "
-      image: "https://i.imgur.com/krW3hWC.png"
+      image: "2.5_y_scheme_ms_cs.png"
 
   utter_registration_fee:
-    - text: "the registration will be the following :"
-      image: "https://i.imgur.com/eAJa77Y.png"
+    - text: "the registration fee will be the following 😂 :"
+      image: "registration_fee.png"
 
   utter_semester_intake:
     - text: "The semester intake is February & September 😂 "
@@ -318,21 +321,21 @@ responses:
 
   utter_register_guide_new_postgra:
     - text: "Here are the registration guideline 😊 :
-    \n- Registration Guidelines for Coursework & Mixed Mode :  <a href=\"https://padlet-uploads.storage.googleapis.com/842334809/ead8c882db10abdfd9daf248aa155626/REGISTRATION_GUIDELINES_CWMM_MAINCAMPUS_MARCH2021.pdf\" target=\"_blank\">Link</a>
-    \n- Registration Guideline for International Student : <a href=\"https://padlet-uploads.storage.googleapis.com/842334809/0c78ee3bee45a045c55c109b3b44e0b8/REGISTRATION_GUIDELINES_STEPS_AND_FORMS_RESEARCH_INTERNATIONAL.pdf\" target=\"_blank\">Link</a>
-    \n- Registration guideline for Malaysian students : <a href=\"https://padlet-uploads.storage.googleapis.com/842334809/415f8e591121d4409e85f3290782ffea/REGISTRATION_GUIDELINES_STEPS_AND_FORMS_RESEARCH_MALAYSIAN.pdf\" target=\"_blank\">Link</a> "
+      \n- Registration Guidelines for Coursework & Mixed Mode :  <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FREGISTRATION_GUIDELINES_CWMM_MAINCAMPUS.pdf?alt=media&token=dc1d286f-14a5-4490-8f22-4e7c48915214\" target=\"_blank\">Link</a>
+    \n- Registration Guideline for International Student : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FREGISTRATION_GUIDELINES_STEPS_AND_FORMS_RESEARCH_INTERNATIONAL.pdf?alt=media&token=68fca9c8-38b9-4264-9f03-dba698849caa\" target=\"_blank\">Link</a>
+    \n- Registration guideline for Malaysian students : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FREGISTRATION_GUIDELINES_STEPS_AND_FORMS_RESEARCH_MALAYSIAN.pdf?alt=media&token=89810656-5b1a-4caf-8860-146704a3a364\" target=\"_blank\">Link</a> "
 
   utter_academic_calendar:
-    - text: "Here is the academic calender for postgraduate 2020/2021 📅️: <a href=\"https://drive.google.com/file/d/1sX8pr7GBFTvMNtkxK8skR_T0_sXuGETn/view\" target=\"_blank\">Link</a> "
+    - text: "Here is the academic calender for postgraduate  📅️: <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FACADEMIC_CALENDAR.pdf?alt=media&token=54a4c10b-72a1-428b-895d-bf7c780e3b00 \" target=\"_blank\">Link</a> "
 
   utter_teaching_timetable:
-    - text: "Here is the teaching time table 2020/2021 ⏳ : <a href=\"https://drive.google.com/file/d/1TabNvbYgqsrlVs-H5w9GNQr26Neee8MH/view?usp=sharing\" target=\"_blank\">Link</a> "
+    - text: "Here is the teaching time table  ⏳ : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FCS_Timetable.pdf?alt=media&token=6a8256a2-d50d-4183-bfdd-3f1614720d5a\" target=\"_blank\">Link</a> "
 
   utter_useful_forms:
     - text: "Below are useful documents that you can use 😁 :
-    \n- Drop Form : <a href=\"https://drive.google.com/file/d/1d90HUeObqLs6A0M3Fn4gn1xlUHhEA4oo/view?usp=sharing\" target=\"_blank\">Link</a>
-    \n- Smart Card Application Form : <a href=\"https://drive.google.com/file/d/18ma1KWdGkZ5JP71uTaPEUxVRETYlEoby/view?usp=sharing\" target=\"_blank\">Link</a>
-    \n- Add Form : <a href=\"https://drive.google.com/file/d/1WAeEWA4AUV6f2FJUaFP6duLcy35zpIxm/view?usp=sharing\" target=\"_blank\">Link</a>"
+    \n- Drop Course Form : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FDROP_FORM.pdf?alt=media&token=8346b7bb-ff4f-472e-9038-6db12c20d5a8\" target=\"_blank\">Link</a>
+    \n- Smart Card Application Form : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FSmart%20Card%20Application%20Form.pdf?alt=media&token=1fac4627-368f-455f-81f9-db2ec1180b17\" target=\"_blank\">Link</a>
+    \n- Add Course Form : <a href=\"https://firebasestorage.googleapis.com/v0/b/askshela-4e0e2.appspot.com/o/AskShela_pdf%2FADD_FORM.pdf?alt=media&token=2096d610-ae87-483a-a55a-d78bc901053f\" target=\"_blank\">Link</a>"
 
   utter_other_questions:
     - text : "Here is other questions : "
@@ -345,6 +348,8 @@ responses:
           payload: "/take_all_elective"
         - title: "Is there any scholarship available for full time master student?"
           payload: "/scholarship_link"
+        - title: "Can Students spend the semester in there home country, as all classes will be conducted online?"
+          payload: "/online_study"
 
   utter_can_i_get_more_unit:
     - text: "NO. Please DO NOT register more than the required units. You will not be allowed to graduate. "
@@ -364,3 +369,5 @@ responses:
   utter_scholarship_link:
     - text: "Here is the scholarship link you can apply : <a href=\"http://www.admissions.usm.my/index.php/postgraduate/financial-assistance/vice-chancellor-award\" target=\"_blank\">Link</a>"
 
+  utter_online_study:
+    - text: "Yes, All classes will be online"
