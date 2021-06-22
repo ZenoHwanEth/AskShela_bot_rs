@@ -1,0 +1,45 @@
+version: "2.0"
+
+nlu:
+
+- intent: question_and_answer_ms_informatics
+  examples: |
+    - question and answer master in informatics
+    - question_and_answer_ms_informatics
+    - question and answer master of science in informatics
+    - qna ms informatics
+    - qna master in informatics
+    - list out the question and answer for master in informatics
+    - list of qna of master in informatics
+    - question about the master in informatics
+    - master of science in informatics
+    - ms informatics
+    - com out master of science in informatics
+
+- intent: courses_msinformatics
+  examples: |
+    - courses in master of science in informatics
+    - the course needed in master of science in informatics
+    - course in master of science in informatics
+    - course ms informatics
+    - show me courses in master in informatics
+    - list the courses in master of informatics
+    - what is the courses in master of informatics
+    - gave the the detail of courses in informatics
+    - master of sciece in informatics courses
+    - hi, can i have courses in informatics
+    - where is the courses for informatics
+
+- intent: study_scheme_msinformatics
+  examples: |
+    - master of informatics courses study scheme
+    - study scheme for master of informatics
+    - show me the study scheme for master in informatics
+    - where can i see the study scheme for master in informatics
+    - list out the study scheme for master in informatics
+    - hi list me the study scheme for informatics
+    - informatics study scheme
+    - study scheme informatics
+    - i wan to know the study scheme for informatics
+    - i wan to see the study scheme for informatics
+    - informatics study scheme in usm

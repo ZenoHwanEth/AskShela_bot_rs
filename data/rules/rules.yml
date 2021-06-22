@@ -17,14 +17,6 @@ rules:
   - intent: nlu_fallback
   - action: utter_please_rephrase
 
-- rule: about cs school button
-  steps:
-    - intent: about_school_btn
-    - action: utter_about_school_btn_1
-    - action: utter_about_school_btn_2
-    - action: utter_about_school_btn_3
-    - action: utter_main_menu_btn
-
 - rule: main menu
   steps:
     - intent: main_menu_btn
@@ -129,4 +121,4 @@ rules:
   steps:
     - intent : registration_fee
     - action : utter_registration_fee
-    - action: utter_main_menu_btn
+    - action:  utter_main_menu_btn

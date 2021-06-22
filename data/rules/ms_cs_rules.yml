@@ -42,7 +42,6 @@ rules:
   steps:
     - intent: study_scheme_ms_cs
     - action: utter_study_scheme_ms_cs
-    - action: utter_main_menu_btn
 
 - rule: 1_y_ms_cs
   steps:

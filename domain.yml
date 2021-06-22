@@ -13,7 +13,6 @@ intents:
   - mood_unhappy
   - bot_challenge
   - main_menu_btn
-  - about_school_btn
   # master of science (data science & analytics)
   - question_and_answer_datascience
   - program_structure
@@ -41,6 +40,18 @@ intents:
   - 1.5_y_ms_cs
   - 2_y_ms_cs
   - 2.5_y_ms_cs
+  # master of science (informatics)
+  - question_and_answer_ms_informatics
+  - courses_msinformatics
+  - study_scheme_msinformatics
+  - core_msinformatics
+  - project_msinformatics
+  - elective_business_informatics
+  - elective_informatics_technopreneurship
+  - elective_biomedical_informatics
+  - 1.5_y_msinformatics
+  - 2_y_msinformatics
+  - 2.5_y_msinformatics
   # others
   - registration_fee
   - semester_intake
@@ -57,10 +68,15 @@ intents:
   - take_all_elective
   - scholarship_link
   - online_study
+  - hungry
 
 responses:
   utter_greet:
     - text: "Hey! I am Shela 👩 . You can ask me anything regarding to USM Computer Science Postgraduate program 😂 "
+
+  utter_go_eat:
+    - text: "Hey, you can have a break and eat some pizza"
+      image: "https://imgur.com/ctVOhla"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -76,7 +92,7 @@ responses:
     - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a Ask-Shela bot."
+    - text: "I am a Ask Shela bot."
 
   utter_please_rephrase:
     - text: "Sorry I have no answer for this question, kindly email <a href = \"mailto:sheela@usm.my\">sheela@usm.my</a>"
@@ -84,59 +100,127 @@ responses:
   utter_main_menu_btn:
     - text: "Here are the QnA main menu: "
       buttons:
-        - title: "Master of Science (Data Science & Analytics)"
+        - title: " purple\"> Master of Science (Data Science & Analytics)"
           payload: "/question_and_answer_datascience"
-        - title: "Master of Science (Computer Science)"
+        - title: " light_purple\"> Master of Science (Computer Science)"
           payload: "/question_and_answer_ms_computerscience"
-        - title: "Duration"
+        - title: " verylight_purple\"> Master of Science (Informatics)"
+          payload: "/question_and_answer_ms_informatics"
+        - title: "\"> Duration"
           payload: "/postgraduate_duration"
-        - title: " Guidelines for application to postgraduate programme"
+        - title: "\"> Guidelines for application to postgraduate programme"
           payload: "/application_postgrad_program"
-        - title: "Registration"
+        - title: "\"> Registration"
           payload: "/registration_newpostgrad_guideline"
-        - title: "Timetable"
+        - title: "\"> Timetable"
           payload: "/teaching_timetable"
-        - title: "Useful forms"
+        - title: "\"> Useful forms"
           payload: "/useful_forms"
-        - title: "Graduation requirement"
+        - title: "\"> Graduation requirement"
           payload: "/graduation_requirement"
-        - title: "Registration Fee"
+        - title: "\"> Registration Fee"
           payload: "/registration_fee"
-        - title: "Passing Grade"
+        - title: "\"> Passing Grade"
           payload: "/school_evaluation"
-        - title: "Other Questions"
+        - title: "\"> FAQ Questions"
           payload: "/other_questions"
-        - title: "About Usm School of Computer Science"
-          payload: "/about_school_btn"
 
-# -----------------------------ABOUT USM SCHOOL OF COMPUTER SCIENCE-----------------------------------------
-  utter_about_school_btn_1:
-    - text: "The School of Computer Science was established on 1st of March 1995."
+  # ----------------------------- Q n A of master in informatics ----------------------------------------------------
+  utter_QnA_informatics:
+    - text: "Please choose one of the topic: "
+      buttons:
+        - title: "\"> Program Structure"
+          payload: "/program_structure"
+        - title: "\"> Candidation Period"
+          payload: "/candidation_period_msdtsc"
+        - title: "\"> Courses Master of science in Informatics"
+          payload: "/courses_msinformatics"
+        - title: "\"> Study Scheme"
+          payload: "/study_scheme_msinformatics"
+        - title: "\"> Evaluation"
+          payload: "/school_evaluation"
+        - title: "\"> Graduation Requirement"
+          payload: "/graduation_requirement"
+        - title: " red\"> Main Menu"
+          payload: "/main_menu_btn"
 
+  utter_courses_msinformatics:
+    - text: "There are 3 electives which are Business Informatics, Informatics Technopreneurship and Biomedical Informatics. \n\nBelow are detail for core, project and elective courses."
+      buttons:
+        - title: "\"> Core"
+          payload: "/core_msinformatics"
+        - title: "\"> Project"
+          payload: "/project_msinformatics"
+        - title: "\"> Elective - Business Informatics"
+          payload: "/elective_business_informatics"
+        - title: "\"> Elective - Informatics Technopreneurship"
+          payload: "/elective_informatics_technopreneurship"
+        - title: "\"> Elective - Biomedical Informatics"
+          payload: "/elective_biomedical_informatics"
+        - title: " red\"> Main Menu"
+          payload: "/main_menu_btn"
 
-  utter_about_school_btn_2:
-    - text: "Over the years the school has engaged in various research activities such as Enabling Technologies & Infrastructure, Data to Knowledge, and Service Computing."
+  utter_core_msinformatics:
+    - text: "Core courses of master of science (Informatics)"
+      image: "Ms informatics - core.png"
 
-  utter_about_school_btn_3:
-    - text: "The School of Computer Science has continuously provide efforts to strengthen its curriculum and research in order to produce quality graduates and contribute to the sustainable development nation."
-      image: "cs_school.jpg"
+  utter_project_msinformatics:
+    - text: "Here is the detail for project of master of science (Informatics)"
+      image: "Ms informatics - project.png"
+
+  utter_elective_business_informatics:
+    - text: "Here is the detail for Elective - Business Informatics"
+      image: "elective business informatics.png"
+
+  utter_elective_informatics_technopreneurship:
+    - text: "Here is the detail for Informatics Technopreneurship"
+      image: "elective informatics technopreneurship.png"
+
+  utter_elective_biomedical_informatics:
+    - text: "Here is the detail for Biomedical Informatics"
+      image: "elective biomedical informatics.png"
+
+  utter_study_scheme_msinformatics:
+    - text: "Here are the study scheme available: "
+      buttons:
+        - title: "\"> 1.5 years"
+          payload: "/1.5_y_msinformatics"
+        - title: "\"> 2 years"
+          payload: "/2_y_msinformatics"
+        - title: "\"> 2.5 years"
+          payload: "/2.5_y_msinformatics"
+        - title: " red\"> Main Menu"
+          payload: "/main_menu_btn"
+
+  utter_1.5_y_msinformatics:
+    - text: "Here is the 1.5 years scheme : "
+      image: "1.5_y_scheme_msinformatics.png"
+
+  utter_2_y_msinformatics:
+    - text: "Here is the 2 years scheme : "
+      image: "2_y_scheme_msinformatics.png"
+
+  utter_2.5_y_msinformatics:
+    - text: "Here is the 2.5 years scheme : "
+      image: "2.5_y_scheme_msinformatics.png"
+
 # ----------------------------- Q n A of master in data science ---------------------------------------------------
   utter_QnA_datascience:
     - text: "Please choose one of the topic: "
       buttons:
-        - title: "Program Structure"
+        - title: "\"> Program Structure"
           payload: "/program_structure"
-        - title: "Candidation Period"
+        - title: "\"> Candidation Period"
           payload: "/candidation_period_msdtsc"
-        - title: "Courses in data science"
+        - title: "\"> Courses Master of science in data science & analytic"
           payload: "/courses_msdtsc"
-        - title: "Study Scheme"
+        - title: "\"> Study Scheme"
           payload: "/study_scheme_msdtsc"
-        - title: "Evaluation"
+        - title: "\"> Evaluation"
           payload: "/school_evaluation"
-        - title: "Graduation Requirement"
+        - title: "\"> Graduation Requirement"
           payload: "/graduation_requirement"
-        - title: "Main Menu"
+        - title: " red\"> Main Menu"
           payload: "/main_menu_btn"
 
 
@@ -157,15 +241,15 @@ responses:
   utter_courses_msdtsc:
     - text: "There are 2 electives which are business analytics and multimodal analytics. \n\nBelow are detail for core, project and elective courses."
       buttons:
-        - title: "Core"
+        - title: "\"> Core"
           payload: "/core_msdtsc"
-        - title: "Project"
+        - title: "\"> Project"
           payload: "/project_msdtsc"
-        - title: "Elective - Business Analytic"
+        - title: "\"> Elective - Business Analytic"
           payload: "/elective_business_analytic"
-        - title: "Elective - Multimodal Analytic"
+        - title: "\"> Elective - Multimodal Analytic"
           payload: "/elective_multimodal_analytic"
-        - title: "Main Menu"
+        - title: " red\"> Main Menu"
           payload: "/main_menu_btn"
 
   utter_core_msdtsc:
@@ -195,13 +279,13 @@ responses:
   utter_study_scheme_msdtsc:
     - text: "Here are the study scheme available: "
       buttons:
-        - title: "1.5 years"
+        - title: "\"> 1.5 years"
           payload: "/1.5_y_msdtsc"
-        - title: "2 years"
+        - title: "\"> 2 years"
           payload: "/2_y_msdtsc"
-        - title: "2.5 years"
+        - title: "\"> 2.5 years"
           payload: "/2.5_y_msdtsc"
-        - title: "Main Menu"
+        - title: " red\"> Main Menu"
           payload: "/main_menu_btn"
 
   utter_1.5_y_scheme_msdtsc:
@@ -220,19 +304,19 @@ responses:
   utter_QnA_ms_cs:
       - text: "Please choose one of the topic: "
         buttons:
-          - title: "Program Structure"
+          - title: "\"> Program Structure"
             payload: "/program_structure"
-          - title: "Candidation Period"
+          - title: "\"> Candidation Period"
             payload: "/candidation_period_mscs"
-          - title: "Courses of master of science in computer science"
+          - title: "\"> Courses of master of science in computer science"
             payload: "/courses_mscs"
-          - title: "Study Scheme"
+          - title: "\"> Study Scheme"
             payload: "/study_scheme_ms_cs"
-          - title: "Evaluation"
+          - title: "\"> Evaluation"
             payload: "/school_evaluation"
-          - title: "Graduation Requirement"
+          - title: "\"> Graduation Requirement"
             payload: "/graduation_requirement"
-          - title: "Main Menu"
+          - title: " red\"> Main Menu"
             payload: "/main_menu_btn"
 
   utter_candidation_period_mscs_fulltime:
@@ -244,13 +328,13 @@ responses:
   utter_courses_mscs:
     - text: "There are 2 electives which are data & knowledge engineering and enabling technologies & infrastructures. \n\nBelow are detail for core, project and elective courses."
       buttons:
-          - title: "Core"
+          - title: "\"> Core"
             payload: "/core_ms_cs"
-          - title: "Project"
+          - title: "\"> Project"
             payload: "/project_ms_cs"
-          - title: "Elective "
+          - title: "\"> Elective "
             payload: "/elective_ms_cs"
-          - title: "Main Menu"
+          - title: " red\"> Main Menu"
             payload: "/main_menu_btn"
 
   utter_core_ms_cs:
@@ -268,15 +352,15 @@ responses:
   utter_study_scheme_ms_cs:
     - text: "Here are the study scheme available: "
       buttons:
-        - title: "1 years"
+        - title: "\"> 1 years"
           payload: "/1_y_ms_cs"
-        - title: "1.5 years"
+        - title: "\"> 1.5 years"
           payload: "/1.5_y_ms_cs"
-        - title: "2 years"
+        - title: "\"> 2 years"
           payload: "/2_y_ms_cs"
-        - title: "2.5 years"
+        - title: "\"> 2.5 years"
           payload: "/2.5_y_ms_cs"
-        - title: "Main Menu"
+        - title: " red\"> Main Menu"
           payload: "/main_menu_btn"
 
   utter_1_y_scheme_ms_cs:
@@ -305,11 +389,11 @@ responses:
   utter_duration_postgraduate:
     - text: "Here is the duration for Post Graduation in Computer science 😬 : "
       buttons:
-        - title: "Duration of Master in Data Science and Analytic"
+        - title: "\"> Duration of Master in Data Science and Analytic"
           payload: "/candidation_period_msdtsc"
-        - title: "Duration of Master in Computer Science"
+        - title: "\"> Duration of Master in Computer Science"
           payload: "/candidation_period_mscs"
-        - title: "Main Menu"
+        - title: " red\"> Main Menu"
           payload: "/main_menu_btn"
 
   utter_application_postgraduate:
@@ -340,15 +424,15 @@ responses:
   utter_other_questions:
     - text : "Here is other questions : "
       buttons:
-        - title: "Can I register more than the required units ?"
+        - title: "\"> Can I register more than the required units ?"
           payload: "/can_i_get_more_unit"
-        - title: "Submission of coursework or assignment done via digitally ? using the onedrive USM Student account ?"
+        - title: "\"> Submission of coursework or assignment done via digitally ? using the onedrive USM Student account ?"
           payload: "/where_submit_coursework"
-        - title: "can i mix electives?"
+        - title: " +\"> can i mix electives?"
           payload: "/take_all_elective"
-        - title: "Is there any scholarship available for full time master student?"
+        - title: " +\"> Is there any scholarship available for full time master student?"
           payload: "/scholarship_link"
-        - title: "Can Students spend the semester in there home country, as all classes will be conducted online?"
+        - title: " +\"> Can Students spend the semester in there home country, as all classes will be conducted online?"
           payload: "/online_study"
 
   utter_can_i_get_more_unit:

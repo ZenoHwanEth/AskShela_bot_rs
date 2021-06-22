@@ -137,6 +137,7 @@ nlu:
     - i am happy
     - happy
     - great man
+    - i felt very nice
 
 - intent: mood_unhappy
   examples: |
@@ -214,39 +215,6 @@ nlu:
     - where is main menu
     - giving me main menu
 
-- intent: about_school_btn
-  examples: |
-    - about cs school
-    - about computer science school
-    - tell me about computer science school
-    - about_school_btn
-    - tell me about the school
-    - what is about the cs school
-    - tell me about computer science school in usm
-    - i wan to know about computer science school
-    - computer science school in usm
-    - about cs school in usm
-    - about computer science in usm
-    - detail about usm computer science school
-    - tell me detail about cs school in usm
-    - about usm cs school
-    - about usm computer science school
-    - what do you understand about computer science school in usm
-    - usm computer science school detail
-    - detail about computer science school in usm
-    - what do you about computer science in usm school
-    - tell me about computer science school in usm
-    - could you tell me the detail of computer science in usm
-    - usm about school button
-    - about school button
-    - usm detail of about school
-    - show me the about school details
-    - where to find usm school computer science detail
-    - cs about school detail
-    - bot, tell me about the school
-    - hey show me the detail about the school
-    - can you show me the details about the usm cs school
-    - usm cs about school details
 
 - intent: question_and_answer_datascience
   examples: |
@@ -356,6 +324,9 @@ nlu:
     - evaluation pls man
     - is there an evaluation in postgraduate or master program
     - bot, show me evalaution details
+    - what is the passing grade
+    - can you show me passing grade
+    - passing grade
 
 - intent: graduation_requirement
   examples: |
@@ -459,6 +430,8 @@ nlu:
     - bot, tell me the application guide
     - hi, tell me the application to cs master program
     - hi, tell me the application to cs postgraduation
+    - guideline for postgraduate programme
+    - is there guideline for postgrad programme
 
 - intent: academic_calendar
   examples: |
@@ -562,5 +535,33 @@ nlu:
     - show me the drop course form
     - show me smart card application form
     - bot, tell me the useful form for postgraduate in computer science
+
+- intent: other_questions
+  examples: |
+    - other questions
+    - FAQ questions
+    - other faq question
+    - where is other faq questions
+    - bot, show me other faq questions
+    - where is other questions
+    - mana other questions
+    - mana other faq question
+    - Frequently Asked Questions
+    - can i have Frequently Asked Questions
+    - pls give me Frequently Asked Questions
+
+- intent: hungry
+  examples: |
+    - hungry
+    - i am hungry
+    - i am hungry, i wan to eat
+    - let me have a break to eat
+    - hungry, wan eat
+    - hey, i am hungry
+    - hi, i am starving
+    - i am starved
+    - i ned eat, starving
+    - where is food
+    - where is food i am hungry and starved
 
 

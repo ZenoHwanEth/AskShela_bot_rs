@@ -1,0 +1,65 @@
+version: "2.0"
+
+rules:
+  - rule: question and answer ms informatics
+    steps:
+      - intent: question_and_answer_ms_informatics
+      - action: utter_QnA_informatics
+
+  - rule: courses_msinformatics
+    steps:
+      - intent: courses_msinformatics
+      - action: utter_courses_msinformatics
+
+  - rule: core_msinformatics
+    steps:
+      - intent: core_msinformatics
+      - action: utter_core_msinformatics
+      - action:  utter_main_menu_btn
+
+  - rule: project_msinformatics
+    steps:
+      - intent: project_msinformatics
+      - action: utter_project_msinformatics
+      - action:  utter_main_menu_btn
+
+  - rule: elective_business_informatics
+    steps:
+      - intent: elective_business_informatics
+      - action: utter_elective_business_informatics
+      - action:  utter_main_menu_btn
+
+  - rule: elective_informatics_technopreneurship
+    steps:
+      - intent: elective_informatics_technopreneurship
+      - action: utter_elective_informatics_technopreneurship
+      - action:  utter_main_menu_btn
+
+  - rule: elective_biomedical_informatics
+    steps:
+      - intent: elective_biomedical_informatics
+      - action: utter_elective_biomedical_informatics
+      - action:  utter_main_menu_btn
+
+  - rule: study_scheme_msinformatics
+    steps:
+      - intent: study_scheme_msinformatics
+      - action: utter_study_scheme_msinformatics
+
+  - rule: 1.5_y_msinformatics
+    steps:
+      - intent: 1.5_y_msinformatics
+      - action: utter_1.5_y_msinformatics
+      - action:  utter_main_menu_btn
+
+  - rule: 2_y_msinformatics
+    steps:
+      - intent: 2_y_msinformatics
+      - action: utter_2_y_msinformatics
+      - action:  utter_main_menu_btn
+
+  - rule: 2.5_y_msinformatics
+    steps:
+      - intent: 2.5_y_msinformatics
+      - action: utter_2.5_y_msinformatics
+      - action:  utter_main_menu_btn

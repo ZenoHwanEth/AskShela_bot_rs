@@ -60,3 +60,8 @@ stories:
     - intent: question_and_answer_datascience
     - action: utter_QnA_datascience
 
+- story: i am hungry
+  steps:
+    - intent: hungry
+    - action: utter_go_eat
+    - action: utter_main_menu_btn

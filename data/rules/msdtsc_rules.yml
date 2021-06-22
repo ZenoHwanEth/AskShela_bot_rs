@@ -47,7 +47,6 @@ rules:
   steps:
     - intent: study_scheme_msdtsc
     - action: utter_study_scheme_msdtsc
-    - action: utter_main_menu_btn
 
 - rule: 1.5_y_msdtsc
   steps:

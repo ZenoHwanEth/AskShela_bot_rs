@@ -27,6 +27,7 @@ nlu:
     - is there information for master in computer science
     - show me the information for master in computer science
     - bot, show me the information in master in computer science in usm
+    - master of computer science
 
 - intent: candidation_period_mscs
   examples: |
